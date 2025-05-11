@@ -1,0 +1,20 @@
+2025-05-08 22:11:17,154 - src.common.logger - INFO - Logger setup complete.
+2025-05-08 22:11:17,158 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_220420.log
+2025-05-08 22:11:20,377 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-08 22:11:20,377 - src.common.logger - INFO - Starting simulation process...
+2025-05-09 13:25:06,555 - src.common.logger - INFO - Initializing simulation...
+2025-05-09 13:25:11,478 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-09 13:25:12,657 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-09 13:25:12,658 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-09 13:25:12,659 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-09 13:25:12,659 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-09 13:25:12,660 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-09 13:25:12,660 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-09 13:25:12,661 - src.common.logger - INFO - DrinkingStatusLookupGenerator initialized with base_path: test/data/input_data, excel_transition_probability_drinking_file_name: Drinking_Stage_Transition_Probabilities.xlsx
+2025-05-09 13:25:12,661 - src.common.logger - INFO - Initializing InitialPopulationLookupGenerator
+2025-05-09 13:25:12,661 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-09 13:48:54,212 - src.common.logger - INFO - Generating birth lookup tables.
+2025-05-09 14:05:33,713 - src.common.logger - INFO - Reading data from sheet: Birth
+2025-05-09 14:05:33,714 - src.common.logger - INFO - Attempting to read sheet 'Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-09 14:05:34,566 - src.common.logger - INFO - Successfully read sheet 'Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-09 14:05:34,577 - src.common.logger - INFO - Lookup table generation for Birth_Rate completed.

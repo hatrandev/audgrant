@@ -1,0 +1,953 @@
+2025-05-10 00:33:44,169 - src.common.logger - INFO - Logger setup complete.
+2025-05-10 00:33:47,163 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-10 00:33:47,164 - src.common.logger - INFO - Starting simulation process...
+2025-05-10 00:33:47,165 - src.common.logger - INFO - Initializing simulation...
+2025-05-10 00:33:47,165 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-10 00:33:47,165 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-10 00:33:47,165 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-10 00:33:47,166 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-10 00:33:47,166 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-10 00:33:47,166 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-10 00:33:47,167 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-10 00:33:47,167 - src.common.logger - INFO - DrinkingStatusLookupGenerator initialized with base_path: test/data/input_data, excel_transition_probability_drinking_file_name: Drinking_Stage_Transition_Probabilities.xlsx
+2025-05-10 00:33:47,167 - src.common.logger - INFO - Initializing InitialPopulationLookupGenerator
+2025-05-10 00:33:47,167 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-10 00:33:47,168 - src.common.logger - INFO - Generating birth lookup tables.
+2025-05-10 00:33:47,168 - src.common.logger - INFO - Reading data from sheet: Birth
+2025-05-10 00:33:47,168 - src.common.logger - INFO - Attempting to read sheet 'Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:47,768 - src.common.logger - INFO - Successfully read sheet 'Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:47,774 - src.common.logger - INFO - Lookup table generation for Birth_Rate completed.
+2025-05-10 00:33:47,774 - src.common.logger - INFO - Reading data from sheet: Sex_Ratio_At_Birth
+2025-05-10 00:33:47,775 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_At_Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:47,826 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_At_Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:47,829 - src.common.logger - INFO - Lookup table generation for Male_Ratio completed.
+2025-05-10 00:33:47,829 - src.common.logger - INFO - Processing race data for 'Under 5 years' from sheet: Race_Sex_Age
+2025-05-10 00:33:47,829 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:48,148 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:48,170 - src.common.logger - INFO - Processed race data for 'Under 5 years': 23 years found.
+2025-05-10 00:33:48,171 - src.common.logger - INFO - Successfully generated birth lookup tables.
+2025-05-10 00:33:48,171 - src.common.logger - INFO - Generating death lookup tables.
+2025-05-10 00:33:48,172 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-10 00:33:48,172 - src.common.logger - INFO - Attempting to read sheet 'Death_Rate_Data' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:49,170 - src.common.logger - INFO - Successfully read sheet 'Death_Rate_Data' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:50,484 - src.common.logger - INFO - Lookup table for Rate loaded successfully as DataFrame.
+2025-05-10 00:33:50,498 - src.common.logger - INFO - Successfully generated death lookup tables.
+2025-05-10 00:33:50,498 - src.common.logger - INFO - Generating immigration lookup tables.
+2025-05-10 00:33:50,499 - src.common.logger - INFO - Starting generation of all lookups.
+2025-05-10 00:33:50,499 - src.common.logger - INFO - Generating age lookup from sheet: Age_Ratio_All_Years
+2025-05-10 00:33:50,499 - src.common.logger - INFO - Generating lookup for sheet: Age_Ratio_All_Years, ratio_column: Age_Ratio, key_column: Age
+2025-05-10 00:33:50,500 - src.common.logger - INFO - Attempting to read sheet 'Age_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:50,619 - src.common.logger - INFO - Successfully read sheet 'Age_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:50,740 - src.common.logger - INFO - Lookup generated for sheet: Age_Ratio_All_Years
+2025-05-10 00:33:50,740 - src.common.logger - INFO - Age lookup generation completed.
+2025-05-10 00:33:50,740 - src.common.logger - INFO - Generating sex lookup from sheet: Sex_Ratio_All_Years
+2025-05-10 00:33:50,741 - src.common.logger - INFO - Generating lookup for sheet: Sex_Ratio_All_Years, ratio_column: Male_Ratio, key_column: Age
+2025-05-10 00:33:50,741 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:50,899 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:51,027 - src.common.logger - INFO - Lookup generated for sheet: Sex_Ratio_All_Years
+2025-05-10 00:33:51,027 - src.common.logger - INFO - Sex lookup generation completed.
+2025-05-10 00:33:51,027 - src.common.logger - INFO - Generating race lookup from sheet: Race_Sex_Age
+2025-05-10 00:33:51,027 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:51,324 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:51,553 - src.common.logger - INFO - Race lookup generation completed.
+2025-05-10 00:33:51,553 - src.common.logger - INFO - Generating immigration rate lookup from sheet: Immigration
+2025-05-10 00:33:51,554 - src.common.logger - INFO - Attempting to read sheet 'Immigration' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:51,604 - src.common.logger - INFO - Successfully read sheet 'Immigration' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:51,608 - src.common.logger - INFO - Immigration rate lookup generation completed.
+2025-05-10 00:33:51,608 - src.common.logger - INFO - Lookup validation passed.
+2025-05-10 00:33:51,609 - src.common.logger - INFO - Lookup validation passed.
+2025-05-10 00:33:51,610 - src.common.logger - INFO - Lookup validation passed.
+2025-05-10 00:33:51,610 - src.common.logger - INFO - Successfully generated immigration lookup tables.
+2025-05-10 00:33:51,610 - src.common.logger - INFO - Generating drinking_transition lookup tables.
+2025-05-10 00:33:51,611 - src.common.logger - INFO - Reading data from sheet: Drinking_TransitionProbability
+2025-05-10 00:33:51,611 - src.common.logger - INFO - Attempting to read sheet 'Drinking_TransitionProbability' from file 'test/data/input_data\Drinking_Stage_Transition_Probabilities.xlsx'
+2025-05-10 00:33:51,691 - src.common.logger - INFO - Successfully read sheet 'Drinking_TransitionProbability' from file 'Drinking_Stage_Transition_Probabilities.xlsx'
+2025-05-10 00:33:52,010 - src.common.logger - INFO - Successfully generated drinking_transition lookup tables.
+2025-05-10 00:33:52,011 - src.common.logger - INFO - Generating initial_population lookup tables.
+2025-05-10 00:33:52,011 - src.common.logger - INFO - Generating initial population lookup tables.
+2025-05-10 00:33:52,011 - src.common.logger - INFO - Processing race data from sheet: Race_Sex_Age
+2025-05-10 00:33:52,011 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,291 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,303 - src.common.logger - INFO - Processed race data: 36 unique age-sex groups found.
+2025-05-10 00:33:52,303 - src.common.logger - INFO - Processing age data from sheet: Initial_Population
+2025-05-10 00:33:52,303 - src.common.logger - INFO - Attempting to read sheet 'Initial_Population' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,356 - src.common.logger - INFO - Successfully read sheet 'Initial_Population' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,362 - src.common.logger - INFO - Processed age data: 101 unique age groups found.
+2025-05-10 00:33:52,362 - src.common.logger - INFO - Processing sex data from sheet: Sex_Average
+2025-05-10 00:33:52,363 - src.common.logger - INFO - Attempting to read sheet 'Sex_Average' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,417 - src.common.logger - INFO - Successfully read sheet 'Sex_Average' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-10 00:33:52,423 - src.common.logger - INFO - Processed sex data: 101 unique age groups found.
+2025-05-10 00:33:52,423 - src.common.logger - INFO - Processing drinking data from sheet: Drinking_Prevalence
+2025-05-10 00:33:52,424 - src.common.logger - INFO - Attempting to read sheet 'Drinking_Prevalence' from file 'test/data/input_data\Drinking_Stage_Prevalences_2000.xlsx'
+2025-05-10 00:33:52,444 - src.common.logger - INFO - Successfully read sheet 'Drinking_Prevalence' from file 'Drinking_Stage_Prevalences_2000.xlsx'
+2025-05-10 00:33:52,465 - src.common.logger - INFO - Processed drinking data: 40 unique groups found.
+2025-05-10 00:33:52,466 - src.common.logger - INFO - Initial population lookup tables generated successfully.
+2025-05-10 00:33:52,466 - src.common.logger - INFO - Successfully generated initial_population lookup tables.
+2025-05-10 00:33:52,466 - src.common.logger - INFO - Lookup tables generated successfully.
+2025-05-10 00:33:52,467 - src.common.logger - INFO - Lookup tables generation took 5.30 seconds.
+2025-05-10 00:33:52,467 - src.common.logger - INFO - Initializing Population Initializer...
+2025-05-10 00:33:52,468 - src.common.logger - INFO - Generating initial population...
+2025-05-10 00:33:52,468 - src.common.logger - INFO - Population generation started with total population: 200000
+2025-05-10 00:33:52,589 - src.common.logger - INFO - Assigned unique ID to each individual in the population.
+2025-05-10 00:33:52,608 - src.common.logger - INFO - Age: 0, Count: 2721, Proportion: 1.36%
+2025-05-10 00:33:52,609 - src.common.logger - INFO - Age: 1, Count: 2708, Proportion: 1.35%
+2025-05-10 00:33:52,609 - src.common.logger - INFO - Age: 2, Count: 2695, Proportion: 1.35%
+2025-05-10 00:34:02,097 - src.common.logger - INFO - Age: 0.0, Total: 2721, Male Count: 1401, Male Ratio: 51.49%
+2025-05-10 00:34:02,097 - src.common.logger - INFO - Age: 1.0, Total: 2708, Male Count: 1338, Male Ratio: 49.41%
+2025-05-10 00:34:02,097 - src.common.logger - INFO - Age: 2.0, Total: 2695, Male Count: 1373, Male Ratio: 50.95%
+2025-05-10 00:34:02,098 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Female, Total: 7121
+2025-05-10 00:34:02,098 - src.common.logger - INFO -   Race: Hispanic, Count: 1094, Proportion: 15.36%
+2025-05-10 00:34:02,099 - src.common.logger - INFO -   Race: White, Count: 4510, Proportion: 63.33%
+2025-05-10 00:34:02,099 - src.common.logger - INFO -   Race: Other, Count: 481, Proportion: 6.75%
+2025-05-10 00:34:02,099 - src.common.logger - INFO -   Race: Black, Count: 1036, Proportion: 14.55%
+2025-05-10 00:34:02,100 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Male, Total: 7487
+2025-05-10 00:34:02,100 - src.common.logger - INFO -   Race: Hispanic, Count: 1206, Proportion: 16.11%
+2025-05-10 00:34:02,100 - src.common.logger - INFO -   Race: White, Count: 4703, Proportion: 62.82%
+2025-05-10 00:34:02,100 - src.common.logger - INFO -   Race: Black, Count: 1063, Proportion: 14.20%
+2025-05-10 00:34:02,101 - src.common.logger - INFO -   Race: Other, Count: 515, Proportion: 6.88%
+2025-05-10 00:34:02,101 - src.common.logger - INFO - Age Group: 15 to 19 years, Gender: Female, Total: 6931
+2025-05-10 00:34:02,101 - src.common.logger - INFO -   Race: White, Count: 4379, Proportion: 63.18%
+2025-05-10 00:34:02,101 - src.common.logger - INFO -   Race: Black, Count: 982, Proportion: 14.17%
+2025-05-10 00:34:02,102 - src.common.logger - INFO -   Race: Hispanic, Count: 1088, Proportion: 15.70%
+2025-05-10 00:34:02,102 - src.common.logger - INFO -   Race: Other, Count: 482, Proportion: 6.95%
+2025-05-10 00:34:02,102 - src.common.logger - INFO - Population generation complete. Total Population Generated: 200000, Configured Initial Population: 200000, Time Taken: 9.63 seconds
+2025-05-10 00:34:02,287 - src.common.logger - INFO - Population DataFrame created with shape: (200000, 7)
+2025-05-10 00:34:02,335 - src.common.logger - INFO - Combined Sex, Race, and Immigration into a single column and removed the individual columns.
+2025-05-10 00:34:02,336 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:02,337 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:02,522 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:07,985 - src.common.logger - INFO - Mapped Age to Age_Group and added Age_Group column to the DataFrame.
+2025-05-10 00:34:07,986 - src.common.logger - INFO - Population initialization took 15.52 seconds.
+2025-05-10 00:34:07,986 - src.common.logger - INFO - Simulation initialization complete.
+2025-05-10 00:34:07,986 - src.common.logger - INFO - Starting simulation process.
+2025-05-10 00:34:08,737 - src.common.logger - INFO - YEAR 2000 SUMMARY: SIMULATED TOTAL POPULATION: 282162411.0, VALIDATED POPULATION: 282162411, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:08,740 - src.common.logger - INFO - Starting simulation for year: 2001
+2025-05-10 00:34:08,740 - src.common.logger - INFO - Simulating year: 2001
+2025-05-10 00:34:08,744 - src.common.logger - INFO - Year 2001: Age population updated in 0.00 seconds
+2025-05-10 00:34:08,744 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:08,745 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:08,745 - src.common.logger - INFO - Starting generation of new births for year 2001
+2025-05-10 00:34:08,745 - src.common.logger - INFO - Computing new births for year 2001
+2025-05-10 00:34:08,746 - src.common.logger - INFO - Computed 2805 new births for year 2001 with birth rate 0.014027
+2025-05-10 00:34:08,746 - src.common.logger - INFO - Calculated 2805 new births for year 2001 (Proportion: 1.40%)
+2025-05-10 00:34:08,746 - src.common.logger - INFO - Assigning genders for 2805 births in year 2001
+2025-05-10 00:34:08,748 - src.common.logger - INFO - Assigning races for 2805 births in year 2001
+2025-05-10 00:34:08,748 - src.common.logger - INFO - Gender distribution - Male: 1435, Female: 1370, Male Percentage: 51.16%
+2025-05-10 00:34:08,749 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:08,749 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:08,750 - src.common.logger - INFO - Successfully assigned races for 2805 births in year 2001
+2025-05-10 00:34:08,750 - src.common.logger - INFO - Successfully generated 2805 new births for year 2001
+2025-05-10 00:34:08,753 - src.common.logger - INFO - New births DataFrame created with shape: (2805, 6)
+2025-05-10 00:34:08,768 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:08,773 - src.common.logger - INFO - Year 2001: Births updated in 0.03 seconds
+2025-05-10 00:34:08,774 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:08,774 - src.common.logger - INFO - Generating immigration population for year 2001
+2025-05-10 00:34:08,775 - src.common.logger - INFO - Calculated 754 immigrants for year 2001 with immigration rate 0.003720
+2025-05-10 00:34:08,859 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:08,860 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:08,863 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:08,885 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (754, 6)
+2025-05-10 00:34:08,891 - src.common.logger - INFO - Year 2001: Immigration updated in 0.12 seconds
+2025-05-10 00:34:09,056 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:09,057 - src.common.logger - INFO - Year 2001: Drinking status updated in 0.17 seconds
+2025-05-10 00:34:09,067 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:09,134 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:09,150 - src.common.logger - INFO - Year 2001: Deaths updated in 0.09 seconds
+2025-05-10 00:34:09,151 - src.common.logger - INFO - Year 2001: Population count = 201811
+2025-05-10 00:34:09,151 - src.common.logger - INFO - Year 2001: Simulation completed in 0.41 seconds
+2025-05-10 00:34:09,874 - src.common.logger - INFO - YEAR 2001 SUMMARY: SIMULATED TOTAL POPULATION: 284717391.631605, VALIDATED POPULATION: 284968955, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:09,877 - src.common.logger - INFO - Completed simulation for year: 2001
+2025-05-10 00:34:09,878 - src.common.logger - INFO - Starting simulation for year: 2002
+2025-05-10 00:34:09,878 - src.common.logger - INFO - Simulating year: 2002
+2025-05-10 00:34:09,882 - src.common.logger - INFO - Year 2002: Age population updated in 0.00 seconds
+2025-05-10 00:34:09,882 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:09,883 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:09,883 - src.common.logger - INFO - Starting generation of new births for year 2002
+2025-05-10 00:34:09,883 - src.common.logger - INFO - Computing new births for year 2002
+2025-05-10 00:34:09,883 - src.common.logger - INFO - Computed 2804 new births for year 2002 with birth rate 0.013895
+2025-05-10 00:34:09,883 - src.common.logger - INFO - Calculated 2804 new births for year 2002 (Proportion: 1.39%)
+2025-05-10 00:34:09,884 - src.common.logger - INFO - Assigning genders for 2804 births in year 2002
+2025-05-10 00:34:09,885 - src.common.logger - INFO - Assigning races for 2804 births in year 2002
+2025-05-10 00:34:09,886 - src.common.logger - INFO - Gender distribution - Male: 1434, Female: 1370, Male Percentage: 51.14%
+2025-05-10 00:34:09,886 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:09,887 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:09,888 - src.common.logger - INFO - Successfully assigned races for 2804 births in year 2002
+2025-05-10 00:34:09,889 - src.common.logger - INFO - Successfully generated 2804 new births for year 2002
+2025-05-10 00:34:09,891 - src.common.logger - INFO - New births DataFrame created with shape: (2804, 6)
+2025-05-10 00:34:09,908 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:09,913 - src.common.logger - INFO - Year 2002: Births updated in 0.03 seconds
+2025-05-10 00:34:09,914 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:09,914 - src.common.logger - INFO - Generating immigration population for year 2002
+2025-05-10 00:34:09,915 - src.common.logger - INFO - Calculated 693 immigrants for year 2002 with immigration rate 0.003389
+2025-05-10 00:34:10,001 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:10,001 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:10,004 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:10,026 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (693, 6)
+2025-05-10 00:34:10,031 - src.common.logger - INFO - Year 2002: Immigration updated in 0.12 seconds
+2025-05-10 00:34:10,200 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:10,200 - src.common.logger - INFO - Year 2002: Drinking status updated in 0.17 seconds
+2025-05-10 00:34:10,209 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:10,276 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:10,292 - src.common.logger - INFO - Year 2002: Deaths updated in 0.09 seconds
+2025-05-10 00:34:10,293 - src.common.logger - INFO - Year 2002: Population count = 203526
+2025-05-10 00:34:10,293 - src.common.logger - INFO - Year 2002: Simulation completed in 0.41 seconds
+2025-05-10 00:34:10,982 - src.common.logger - INFO - YEAR 2002 SUMMARY: SIMULATED TOTAL POPULATION: 287136934.30593, VALIDATED POPULATION: 287625193, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:10,984 - src.common.logger - INFO - Completed simulation for year: 2002
+2025-05-10 00:34:10,985 - src.common.logger - INFO - Starting simulation for year: 2003
+2025-05-10 00:34:10,985 - src.common.logger - INFO - Simulating year: 2003
+2025-05-10 00:34:10,989 - src.common.logger - INFO - Year 2003: Age population updated in 0.00 seconds
+2025-05-10 00:34:10,989 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:10,990 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:10,990 - src.common.logger - INFO - Starting generation of new births for year 2003
+2025-05-10 00:34:10,991 - src.common.logger - INFO - Computing new births for year 2003
+2025-05-10 00:34:10,991 - src.common.logger - INFO - Computed 2822 new births for year 2003 with birth rate 0.013865
+2025-05-10 00:34:10,991 - src.common.logger - INFO - Calculated 2822 new births for year 2003 (Proportion: 1.39%)
+2025-05-10 00:34:10,991 - src.common.logger - INFO - Assigning genders for 2822 births in year 2003
+2025-05-10 00:34:11,046 - src.common.logger - INFO - Assigning races for 2822 births in year 2003
+2025-05-10 00:34:11,047 - src.common.logger - INFO - Gender distribution - Male: 1445, Female: 1377, Male Percentage: 51.20%
+2025-05-10 00:34:11,047 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:11,048 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:11,049 - src.common.logger - INFO - Successfully assigned races for 2822 births in year 2003
+2025-05-10 00:34:11,049 - src.common.logger - INFO - Successfully generated 2822 new births for year 2003
+2025-05-10 00:34:11,051 - src.common.logger - INFO - New births DataFrame created with shape: (2822, 6)
+2025-05-10 00:34:11,070 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:11,075 - src.common.logger - INFO - Year 2003: Births updated in 0.09 seconds
+2025-05-10 00:34:11,076 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:11,076 - src.common.logger - INFO - Generating immigration population for year 2003
+2025-05-10 00:34:11,076 - src.common.logger - INFO - Calculated 832 immigrants for year 2003 with immigration rate 0.004032
+2025-05-10 00:34:11,172 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:11,172 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:11,176 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:11,197 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (832, 6)
+2025-05-10 00:34:11,202 - src.common.logger - INFO - Year 2003: Immigration updated in 0.13 seconds
+2025-05-10 00:34:11,366 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:11,366 - src.common.logger - INFO - Year 2003: Drinking status updated in 0.16 seconds
+2025-05-10 00:34:11,374 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:11,431 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:11,447 - src.common.logger - INFO - Year 2003: Deaths updated in 0.08 seconds
+2025-05-10 00:34:11,447 - src.common.logger - INFO - Year 2003: Population count = 205332
+2025-05-10 00:34:11,448 - src.common.logger - INFO - Year 2003: Simulation completed in 0.46 seconds
+2025-05-10 00:34:12,086 - src.common.logger - INFO - YEAR 2003 SUMMARY: SIMULATED TOTAL POPULATION: 289684860.87726, VALIDATED POPULATION: 290107933, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:12,089 - src.common.logger - INFO - Completed simulation for year: 2003
+2025-05-10 00:34:12,089 - src.common.logger - INFO - Starting simulation for year: 2004
+2025-05-10 00:34:12,089 - src.common.logger - INFO - Simulating year: 2004
+2025-05-10 00:34:12,093 - src.common.logger - INFO - Year 2004: Age population updated in 0.00 seconds
+2025-05-10 00:34:12,093 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:12,094 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:12,094 - src.common.logger - INFO - Starting generation of new births for year 2004
+2025-05-10 00:34:12,094 - src.common.logger - INFO - Computing new births for year 2004
+2025-05-10 00:34:12,094 - src.common.logger - INFO - Computed 2853 new births for year 2004 with birth rate 0.013893
+2025-05-10 00:34:12,094 - src.common.logger - INFO - Calculated 2853 new births for year 2004 (Proportion: 1.39%)
+2025-05-10 00:34:12,095 - src.common.logger - INFO - Assigning genders for 2853 births in year 2004
+2025-05-10 00:34:12,105 - src.common.logger - INFO - Assigning races for 2853 births in year 2004
+2025-05-10 00:34:12,106 - src.common.logger - INFO - Gender distribution - Male: 1461, Female: 1392, Male Percentage: 51.21%
+2025-05-10 00:34:12,106 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:12,107 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:12,108 - src.common.logger - INFO - Successfully assigned races for 2853 births in year 2004
+2025-05-10 00:34:12,108 - src.common.logger - INFO - Successfully generated 2853 new births for year 2004
+2025-05-10 00:34:12,111 - src.common.logger - INFO - New births DataFrame created with shape: (2853, 6)
+2025-05-10 00:34:12,126 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:12,132 - src.common.logger - INFO - Year 2004: Births updated in 0.04 seconds
+2025-05-10 00:34:12,132 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:12,132 - src.common.logger - INFO - Generating immigration population for year 2004
+2025-05-10 00:34:12,133 - src.common.logger - INFO - Calculated 778 immigrants for year 2004 with immigration rate 0.003739
+2025-05-10 00:34:12,220 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:12,221 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:12,224 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:12,252 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (778, 6)
+2025-05-10 00:34:12,257 - src.common.logger - INFO - Year 2004: Immigration updated in 0.13 seconds
+2025-05-10 00:34:12,429 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:12,429 - src.common.logger - INFO - Year 2004: Drinking status updated in 0.17 seconds
+2025-05-10 00:34:12,438 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:12,497 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:12,515 - src.common.logger - INFO - Year 2004: Deaths updated in 0.08 seconds
+2025-05-10 00:34:12,515 - src.common.logger - INFO - Year 2004: Population count = 207161
+2025-05-10 00:34:12,515 - src.common.logger - INFO - Year 2004: Simulation completed in 0.43 seconds
+2025-05-10 00:34:13,229 - src.common.logger - INFO - YEAR 2004 SUMMARY: SIMULATED TOTAL POPULATION: 292265236.125855, VALIDATED POPULATION: 292805298, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:13,232 - src.common.logger - INFO - Completed simulation for year: 2004
+2025-05-10 00:34:13,232 - src.common.logger - INFO - Starting simulation for year: 2005
+2025-05-10 00:34:13,233 - src.common.logger - INFO - Simulating year: 2005
+2025-05-10 00:34:13,236 - src.common.logger - INFO - Year 2005: Age population updated in 0.00 seconds
+2025-05-10 00:34:13,236 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:13,236 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:13,237 - src.common.logger - INFO - Starting generation of new births for year 2005
+2025-05-10 00:34:13,237 - src.common.logger - INFO - Computing new births for year 2005
+2025-05-10 00:34:13,237 - src.common.logger - INFO - Computed 2870 new births for year 2005 with birth rate 0.013856
+2025-05-10 00:34:13,238 - src.common.logger - INFO - Calculated 2870 new births for year 2005 (Proportion: 1.39%)
+2025-05-10 00:34:13,238 - src.common.logger - INFO - Assigning genders for 2870 births in year 2005
+2025-05-10 00:34:13,248 - src.common.logger - INFO - Assigning races for 2870 births in year 2005
+2025-05-10 00:34:13,249 - src.common.logger - INFO - Gender distribution - Male: 1472, Female: 1398, Male Percentage: 51.29%
+2025-05-10 00:34:13,250 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:13,250 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:13,251 - src.common.logger - INFO - Successfully assigned races for 2870 births in year 2005
+2025-05-10 00:34:13,251 - src.common.logger - INFO - Successfully generated 2870 new births for year 2005
+2025-05-10 00:34:13,254 - src.common.logger - INFO - New births DataFrame created with shape: (2870, 6)
+2025-05-10 00:34:13,270 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:13,275 - src.common.logger - INFO - Year 2005: Births updated in 0.04 seconds
+2025-05-10 00:34:13,275 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:13,276 - src.common.logger - INFO - Generating immigration population for year 2005
+2025-05-10 00:34:13,276 - src.common.logger - INFO - Calculated 929 immigrants for year 2005 with immigration rate 0.004423
+2025-05-10 00:34:13,380 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:13,380 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:13,384 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:13,423 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (929, 6)
+2025-05-10 00:34:13,428 - src.common.logger - INFO - Year 2005: Immigration updated in 0.15 seconds
+2025-05-10 00:34:13,595 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:13,595 - src.common.logger - INFO - Year 2005: Drinking status updated in 0.17 seconds
+2025-05-10 00:34:13,604 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:13,661 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:13,681 - src.common.logger - INFO - Year 2005: Deaths updated in 0.09 seconds
+2025-05-10 00:34:13,681 - src.common.logger - INFO - Year 2005: Population count = 209106
+2025-05-10 00:34:13,681 - src.common.logger - INFO - Year 2005: Simulation completed in 0.45 seconds
+2025-05-10 00:34:14,384 - src.common.logger - INFO - YEAR 2005 SUMMARY: SIMULATED TOTAL POPULATION: 295009265.57283, VALIDATED POPULATION: 295516599, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:14,387 - src.common.logger - INFO - Completed simulation for year: 2005
+2025-05-10 00:34:14,388 - src.common.logger - INFO - Starting simulation for year: 2006
+2025-05-10 00:34:14,388 - src.common.logger - INFO - Simulating year: 2006
+2025-05-10 00:34:14,392 - src.common.logger - INFO - Year 2006: Age population updated in 0.00 seconds
+2025-05-10 00:34:14,392 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:14,393 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:14,393 - src.common.logger - INFO - Starting generation of new births for year 2006
+2025-05-10 00:34:14,393 - src.common.logger - INFO - Computing new births for year 2006
+2025-05-10 00:34:14,393 - src.common.logger - INFO - Computed 2887 new births for year 2006 with birth rate 0.013809
+2025-05-10 00:34:14,394 - src.common.logger - INFO - Calculated 2887 new births for year 2006 (Proportion: 1.38%)
+2025-05-10 00:34:14,394 - src.common.logger - INFO - Assigning genders for 2887 births in year 2006
+2025-05-10 00:34:14,405 - src.common.logger - INFO - Assigning races for 2887 births in year 2006
+2025-05-10 00:34:14,406 - src.common.logger - INFO - Gender distribution - Male: 1481, Female: 1406, Male Percentage: 51.30%
+2025-05-10 00:34:14,406 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:14,407 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:14,408 - src.common.logger - INFO - Successfully assigned races for 2887 births in year 2006
+2025-05-10 00:34:14,408 - src.common.logger - INFO - Successfully generated 2887 new births for year 2006
+2025-05-10 00:34:14,411 - src.common.logger - INFO - New births DataFrame created with shape: (2887, 6)
+2025-05-10 00:34:14,427 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:14,433 - src.common.logger - INFO - Year 2006: Births updated in 0.04 seconds
+2025-05-10 00:34:14,433 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:14,434 - src.common.logger - INFO - Generating immigration population for year 2006
+2025-05-10 00:34:14,434 - src.common.logger - INFO - Calculated 878 immigrants for year 2006 with immigration rate 0.004142
+2025-05-10 00:34:14,529 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:14,529 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:14,533 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:14,562 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (878, 6)
+2025-05-10 00:34:14,567 - src.common.logger - INFO - Year 2006: Immigration updated in 0.13 seconds
+2025-05-10 00:34:14,731 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:14,732 - src.common.logger - INFO - Year 2006: Drinking status updated in 0.16 seconds
+2025-05-10 00:34:14,740 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:14,797 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:14,814 - src.common.logger - INFO - Year 2006: Deaths updated in 0.08 seconds
+2025-05-10 00:34:14,814 - src.common.logger - INFO - Year 2006: Population count = 210985
+2025-05-10 00:34:14,814 - src.common.logger - INFO - Year 2006: Simulation completed in 0.43 seconds
+2025-05-10 00:34:15,535 - src.common.logger - INFO - YEAR 2006 SUMMARY: SIMULATED TOTAL POPULATION: 297660181.424175, VALIDATED POPULATION: 298379912, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:15,539 - src.common.logger - INFO - Completed simulation for year: 2006
+2025-05-10 00:34:15,539 - src.common.logger - INFO - Starting simulation for year: 2007
+2025-05-10 00:34:15,539 - src.common.logger - INFO - Simulating year: 2007
+2025-05-10 00:34:15,542 - src.common.logger - INFO - Year 2007: Age population updated in 0.00 seconds
+2025-05-10 00:34:15,543 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:15,543 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:15,543 - src.common.logger - INFO - Starting generation of new births for year 2007
+2025-05-10 00:34:15,543 - src.common.logger - INFO - Computing new births for year 2007
+2025-05-10 00:34:15,544 - src.common.logger - INFO - Computed 2907 new births for year 2007 with birth rate 0.013779
+2025-05-10 00:34:15,544 - src.common.logger - INFO - Calculated 2907 new births for year 2007 (Proportion: 1.38%)
+2025-05-10 00:34:15,544 - src.common.logger - INFO - Assigning genders for 2907 births in year 2007
+2025-05-10 00:34:15,555 - src.common.logger - INFO - Assigning races for 2907 births in year 2007
+2025-05-10 00:34:15,555 - src.common.logger - INFO - Gender distribution - Male: 1491, Female: 1416, Male Percentage: 51.29%
+2025-05-10 00:34:15,556 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:15,557 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:15,558 - src.common.logger - INFO - Successfully assigned races for 2907 births in year 2007
+2025-05-10 00:34:15,558 - src.common.logger - INFO - Successfully generated 2907 new births for year 2007
+2025-05-10 00:34:15,560 - src.common.logger - INFO - New births DataFrame created with shape: (2907, 6)
+2025-05-10 00:34:15,576 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:15,581 - src.common.logger - INFO - Year 2007: Births updated in 0.04 seconds
+2025-05-10 00:34:15,582 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:15,582 - src.common.logger - INFO - Generating immigration population for year 2007
+2025-05-10 00:34:15,582 - src.common.logger - INFO - Calculated 808 immigrants for year 2007 with immigration rate 0.003779
+2025-05-10 00:34:15,671 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:15,672 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:15,675 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:15,698 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (808, 6)
+2025-05-10 00:34:15,704 - src.common.logger - INFO - Year 2007: Immigration updated in 0.12 seconds
+2025-05-10 00:34:15,874 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:15,874 - src.common.logger - INFO - Year 2007: Drinking status updated in 0.17 seconds
+2025-05-10 00:34:15,883 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:15,943 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:15,960 - src.common.logger - INFO - Year 2007: Deaths updated in 0.09 seconds
+2025-05-10 00:34:15,960 - src.common.logger - INFO - Year 2007: Population count = 212845
+2025-05-10 00:34:15,960 - src.common.logger - INFO - Year 2007: Simulation completed in 0.42 seconds
+2025-05-10 00:34:16,783 - src.common.logger - INFO - YEAR 2007 SUMMARY: SIMULATED TOTAL POPULATION: 300284291.846475, VALIDATED POPULATION: 301231207, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:16,786 - src.common.logger - INFO - Completed simulation for year: 2007
+2025-05-10 00:34:16,786 - src.common.logger - INFO - Starting simulation for year: 2008
+2025-05-10 00:34:16,786 - src.common.logger - INFO - Simulating year: 2008
+2025-05-10 00:34:16,789 - src.common.logger - INFO - Year 2008: Age population updated in 0.00 seconds
+2025-05-10 00:34:16,790 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:16,790 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:16,790 - src.common.logger - INFO - Starting generation of new births for year 2008
+2025-05-10 00:34:16,790 - src.common.logger - INFO - Computing new births for year 2008
+2025-05-10 00:34:16,791 - src.common.logger - INFO - Computed 2930 new births for year 2008 with birth rate 0.013767
+2025-05-10 00:34:16,791 - src.common.logger - INFO - Calculated 2930 new births for year 2008 (Proportion: 1.38%)
+2025-05-10 00:34:16,791 - src.common.logger - INFO - Assigning genders for 2930 births in year 2008
+2025-05-10 00:34:16,802 - src.common.logger - INFO - Assigning races for 2930 births in year 2008
+2025-05-10 00:34:16,803 - src.common.logger - INFO - Gender distribution - Male: 1501, Female: 1429, Male Percentage: 51.23%
+2025-05-10 00:34:16,804 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:16,805 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:16,806 - src.common.logger - INFO - Successfully assigned races for 2930 births in year 2008
+2025-05-10 00:34:16,806 - src.common.logger - INFO - Successfully generated 2930 new births for year 2008
+2025-05-10 00:34:16,809 - src.common.logger - INFO - New births DataFrame created with shape: (2930, 6)
+2025-05-10 00:34:16,825 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:16,830 - src.common.logger - INFO - Year 2008: Births updated in 0.04 seconds
+2025-05-10 00:34:16,830 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:16,831 - src.common.logger - INFO - Generating immigration population for year 2008
+2025-05-10 00:34:16,832 - src.common.logger - INFO - Calculated 721 immigrants for year 2008 with immigration rate 0.003344
+2025-05-10 00:34:16,925 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:16,926 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:16,929 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:16,954 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (721, 6)
+2025-05-10 00:34:16,960 - src.common.logger - INFO - Year 2008: Immigration updated in 0.13 seconds
+2025-05-10 00:34:17,153 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:17,154 - src.common.logger - INFO - Year 2008: Drinking status updated in 0.19 seconds
+2025-05-10 00:34:17,165 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:17,233 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:17,251 - src.common.logger - INFO - Year 2008: Deaths updated in 0.10 seconds
+2025-05-10 00:34:17,252 - src.common.logger - INFO - Year 2008: Population count = 214613
+2025-05-10 00:34:17,252 - src.common.logger - INFO - Year 2008: Simulation completed in 0.47 seconds
+2025-05-10 00:34:17,994 - src.common.logger - INFO - YEAR 2008 SUMMARY: SIMULATED TOTAL POPULATION: 302778607.55971503, VALIDATED POPULATION: 304093966, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:17,997 - src.common.logger - INFO - Completed simulation for year: 2008
+2025-05-10 00:34:17,998 - src.common.logger - INFO - Starting simulation for year: 2009
+2025-05-10 00:34:17,998 - src.common.logger - INFO - Simulating year: 2009
+2025-05-10 00:34:18,001 - src.common.logger - INFO - Year 2009: Age population updated in 0.00 seconds
+2025-05-10 00:34:18,002 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:18,002 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:18,002 - src.common.logger - INFO - Starting generation of new births for year 2009
+2025-05-10 00:34:18,002 - src.common.logger - INFO - Computing new births for year 2009
+2025-05-10 00:34:18,003 - src.common.logger - INFO - Computed 2957 new births for year 2009 with birth rate 0.013777
+2025-05-10 00:34:18,003 - src.common.logger - INFO - Calculated 2957 new births for year 2009 (Proportion: 1.38%)
+2025-05-10 00:34:18,003 - src.common.logger - INFO - Assigning genders for 2957 births in year 2009
+2025-05-10 00:34:18,013 - src.common.logger - INFO - Assigning races for 2957 births in year 2009
+2025-05-10 00:34:18,014 - src.common.logger - INFO - Gender distribution - Male: 1513, Female: 1444, Male Percentage: 51.17%
+2025-05-10 00:34:18,015 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:18,016 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:18,017 - src.common.logger - INFO - Successfully assigned races for 2957 births in year 2009
+2025-05-10 00:34:18,017 - src.common.logger - INFO - Successfully generated 2957 new births for year 2009
+2025-05-10 00:34:18,020 - src.common.logger - INFO - New births DataFrame created with shape: (2957, 6)
+2025-05-10 00:34:18,037 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:18,042 - src.common.logger - INFO - Year 2009: Births updated in 0.04 seconds
+2025-05-10 00:34:18,042 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:18,043 - src.common.logger - INFO - Generating immigration population for year 2009
+2025-05-10 00:34:18,043 - src.common.logger - INFO - Calculated 698 immigrants for year 2009 with immigration rate 0.003207
+2025-05-10 00:34:18,125 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:18,126 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:18,129 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:18,149 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (698, 6)
+2025-05-10 00:34:18,155 - src.common.logger - INFO - Year 2009: Immigration updated in 0.11 seconds
+2025-05-10 00:34:18,339 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:18,339 - src.common.logger - INFO - Year 2009: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:18,351 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:18,412 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:18,430 - src.common.logger - INFO - Year 2009: Deaths updated in 0.09 seconds
+2025-05-10 00:34:18,431 - src.common.logger - INFO - Year 2009: Population count = 216403
+2025-05-10 00:34:18,431 - src.common.logger - INFO - Year 2009: Simulation completed in 0.43 seconds
+2025-05-10 00:34:19,239 - src.common.logger - INFO - YEAR 2009 SUMMARY: SIMULATED TOTAL POPULATION: 305303961.138165, VALIDATED POPULATION: 306771529, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:19,242 - src.common.logger - INFO - Completed simulation for year: 2009
+2025-05-10 00:34:19,242 - src.common.logger - INFO - Starting simulation for year: 2010
+2025-05-10 00:34:19,242 - src.common.logger - INFO - Simulating year: 2010
+2025-05-10 00:34:19,246 - src.common.logger - INFO - Year 2010: Age population updated in 0.00 seconds
+2025-05-10 00:34:19,246 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:19,247 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:19,247 - src.common.logger - INFO - Starting generation of new births for year 2010
+2025-05-10 00:34:19,247 - src.common.logger - INFO - Computing new births for year 2010
+2025-05-10 00:34:19,248 - src.common.logger - INFO - Computed 2986 new births for year 2010 with birth rate 0.013799
+2025-05-10 00:34:19,248 - src.common.logger - INFO - Calculated 2986 new births for year 2010 (Proportion: 1.38%)
+2025-05-10 00:34:19,248 - src.common.logger - INFO - Assigning genders for 2986 births in year 2010
+2025-05-10 00:34:19,260 - src.common.logger - INFO - Assigning races for 2986 births in year 2010
+2025-05-10 00:34:19,261 - src.common.logger - INFO - Gender distribution - Male: 1525, Female: 1461, Male Percentage: 51.07%
+2025-05-10 00:34:19,262 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:19,263 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:19,263 - src.common.logger - INFO - Successfully assigned races for 2986 births in year 2010
+2025-05-10 00:34:19,264 - src.common.logger - INFO - Successfully generated 2986 new births for year 2010
+2025-05-10 00:34:19,266 - src.common.logger - INFO - New births DataFrame created with shape: (2986, 6)
+2025-05-10 00:34:19,283 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:19,289 - src.common.logger - INFO - Year 2010: Births updated in 0.04 seconds
+2025-05-10 00:34:19,289 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:19,290 - src.common.logger - INFO - Generating immigration population for year 2010
+2025-05-10 00:34:19,290 - src.common.logger - INFO - Calculated 533 immigrants for year 2010 with immigration rate 0.002429
+2025-05-10 00:34:19,356 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:19,356 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:19,359 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:19,382 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (533, 6)
+2025-05-10 00:34:19,388 - src.common.logger - INFO - Year 2010: Immigration updated in 0.10 seconds
+2025-05-10 00:34:19,566 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:19,567 - src.common.logger - INFO - Year 2010: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:19,576 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:19,638 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:19,655 - src.common.logger - INFO - Year 2010: Deaths updated in 0.09 seconds
+2025-05-10 00:34:19,655 - src.common.logger - INFO - Year 2010: Population count = 218028
+2025-05-10 00:34:19,655 - src.common.logger - INFO - Year 2010: Simulation completed in 0.41 seconds
+2025-05-10 00:34:20,423 - src.common.logger - INFO - YEAR 2010 SUMMARY: SIMULATED TOTAL POPULATION: 307596530.72754, VALIDATED POPULATION: 309321666, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:20,427 - src.common.logger - INFO - Completed simulation for year: 2010
+2025-05-10 00:34:20,427 - src.common.logger - INFO - Starting simulation for year: 2011
+2025-05-10 00:34:20,427 - src.common.logger - INFO - Simulating year: 2011
+2025-05-10 00:34:20,432 - src.common.logger - INFO - Year 2011: Age population updated in 0.00 seconds
+2025-05-10 00:34:20,432 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:20,432 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:20,433 - src.common.logger - INFO - Starting generation of new births for year 2011
+2025-05-10 00:34:20,433 - src.common.logger - INFO - Computing new births for year 2011
+2025-05-10 00:34:20,433 - src.common.logger - INFO - Computed 3016 new births for year 2011 with birth rate 0.013835
+2025-05-10 00:34:20,433 - src.common.logger - INFO - Calculated 3016 new births for year 2011 (Proportion: 1.38%)
+2025-05-10 00:34:20,433 - src.common.logger - INFO - Assigning genders for 3016 births in year 2011
+2025-05-10 00:34:20,444 - src.common.logger - INFO - Assigning races for 3016 births in year 2011
+2025-05-10 00:34:20,445 - src.common.logger - INFO - Gender distribution - Male: 1544, Female: 1472, Male Percentage: 51.19%
+2025-05-10 00:34:20,445 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:20,446 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:20,447 - src.common.logger - INFO - Successfully assigned races for 3016 births in year 2011
+2025-05-10 00:34:20,447 - src.common.logger - INFO - Successfully generated 3016 new births for year 2011
+2025-05-10 00:34:20,450 - src.common.logger - INFO - New births DataFrame created with shape: (3016, 6)
+2025-05-10 00:34:20,466 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:20,473 - src.common.logger - INFO - Year 2011: Births updated in 0.04 seconds
+2025-05-10 00:34:20,473 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:20,474 - src.common.logger - INFO - Generating immigration population for year 2011
+2025-05-10 00:34:20,474 - src.common.logger - INFO - Calculated 586 immigrants for year 2011 with immigration rate 0.002653
+2025-05-10 00:34:20,540 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:20,540 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:20,543 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:20,565 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (586, 6)
+2025-05-10 00:34:20,571 - src.common.logger - INFO - Year 2011: Immigration updated in 0.10 seconds
+2025-05-10 00:34:20,747 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:20,747 - src.common.logger - INFO - Year 2011: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:20,757 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:20,819 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:20,837 - src.common.logger - INFO - Year 2011: Deaths updated in 0.09 seconds
+2025-05-10 00:34:20,837 - src.common.logger - INFO - Year 2011: Population count = 219720
+2025-05-10 00:34:20,838 - src.common.logger - INFO - Year 2011: Simulation completed in 0.41 seconds
+2025-05-10 00:34:21,593 - src.common.logger - INFO - YEAR 2011 SUMMARY: SIMULATED TOTAL POPULATION: 309983624.7246, VALIDATED POPULATION: 311556874, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:21,597 - src.common.logger - INFO - Completed simulation for year: 2011
+2025-05-10 00:34:21,597 - src.common.logger - INFO - Starting simulation for year: 2012
+2025-05-10 00:34:21,597 - src.common.logger - INFO - Simulating year: 2012
+2025-05-10 00:34:21,603 - src.common.logger - INFO - Year 2012: Age population updated in 0.01 seconds
+2025-05-10 00:34:21,604 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:21,604 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:21,604 - src.common.logger - INFO - Starting generation of new births for year 2012
+2025-05-10 00:34:21,604 - src.common.logger - INFO - Computing new births for year 2012
+2025-05-10 00:34:21,605 - src.common.logger - INFO - Computed 2997 new births for year 2012 with birth rate 0.013638
+2025-05-10 00:34:21,605 - src.common.logger - INFO - Calculated 2997 new births for year 2012 (Proportion: 1.36%)
+2025-05-10 00:34:21,605 - src.common.logger - INFO - Assigning genders for 2997 births in year 2012
+2025-05-10 00:34:21,606 - src.common.logger - INFO - Assigning races for 2997 births in year 2012
+2025-05-10 00:34:21,607 - src.common.logger - INFO - Gender distribution - Male: 1534, Female: 1463, Male Percentage: 51.18%
+2025-05-10 00:34:21,607 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:21,608 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:21,609 - src.common.logger - INFO - Successfully assigned races for 2997 births in year 2012
+2025-05-10 00:34:21,609 - src.common.logger - INFO - Successfully generated 2997 new births for year 2012
+2025-05-10 00:34:21,612 - src.common.logger - INFO - New births DataFrame created with shape: (2997, 6)
+2025-05-10 00:34:21,630 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:21,636 - src.common.logger - INFO - Year 2012: Births updated in 0.03 seconds
+2025-05-10 00:34:21,636 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:21,637 - src.common.logger - INFO - Generating immigration population for year 2012
+2025-05-10 00:34:21,637 - src.common.logger - INFO - Calculated 553 immigrants for year 2012 with immigration rate 0.002484
+2025-05-10 00:34:21,708 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:21,708 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:21,711 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:21,727 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (553, 6)
+2025-05-10 00:34:21,733 - src.common.logger - INFO - Year 2012: Immigration updated in 0.10 seconds
+2025-05-10 00:34:21,915 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:21,916 - src.common.logger - INFO - Year 2012: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:21,925 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:21,986 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:22,004 - src.common.logger - INFO - Year 2012: Deaths updated in 0.09 seconds
+2025-05-10 00:34:22,005 - src.common.logger - INFO - Year 2012: Population count = 221352
+2025-05-10 00:34:22,005 - src.common.logger - INFO - Year 2012: Simulation completed in 0.41 seconds
+2025-05-10 00:34:22,775 - src.common.logger - INFO - YEAR 2012 SUMMARY: SIMULATED TOTAL POPULATION: 312286069.99836004, VALIDATED POPULATION: 313830990, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:22,778 - src.common.logger - INFO - Completed simulation for year: 2012
+2025-05-10 00:34:22,779 - src.common.logger - INFO - Starting simulation for year: 2013
+2025-05-10 00:34:22,779 - src.common.logger - INFO - Simulating year: 2013
+2025-05-10 00:34:22,782 - src.common.logger - INFO - Year 2013: Age population updated in 0.00 seconds
+2025-05-10 00:34:22,783 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:22,783 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:22,783 - src.common.logger - INFO - Starting generation of new births for year 2013
+2025-05-10 00:34:22,783 - src.common.logger - INFO - Computing new births for year 2013
+2025-05-10 00:34:22,784 - src.common.logger - INFO - Computed 2969 new births for year 2013 with birth rate 0.013415
+2025-05-10 00:34:22,784 - src.common.logger - INFO - Calculated 2969 new births for year 2013 (Proportion: 1.34%)
+2025-05-10 00:34:22,784 - src.common.logger - INFO - Assigning genders for 2969 births in year 2013
+2025-05-10 00:34:22,796 - src.common.logger - INFO - Assigning races for 2969 births in year 2013
+2025-05-10 00:34:22,797 - src.common.logger - INFO - Gender distribution - Male: 1519, Female: 1450, Male Percentage: 51.16%
+2025-05-10 00:34:22,797 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:22,798 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:22,799 - src.common.logger - INFO - Successfully assigned races for 2969 births in year 2013
+2025-05-10 00:34:22,799 - src.common.logger - INFO - Successfully generated 2969 new births for year 2013
+2025-05-10 00:34:22,802 - src.common.logger - INFO - New births DataFrame created with shape: (2969, 6)
+2025-05-10 00:34:22,819 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:22,824 - src.common.logger - INFO - Year 2013: Births updated in 0.04 seconds
+2025-05-10 00:34:22,825 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:22,825 - src.common.logger - INFO - Generating immigration population for year 2013
+2025-05-10 00:34:22,826 - src.common.logger - INFO - Calculated 691 immigrants for year 2013 with immigration rate 0.003079
+2025-05-10 00:34:22,907 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:22,907 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:22,911 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:22,931 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (691, 6)
+2025-05-10 00:34:22,936 - src.common.logger - INFO - Year 2013: Immigration updated in 0.11 seconds
+2025-05-10 00:34:23,116 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:23,117 - src.common.logger - INFO - Year 2013: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:23,127 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:23,191 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:23,209 - src.common.logger - INFO - Year 2013: Deaths updated in 0.09 seconds
+2025-05-10 00:34:23,209 - src.common.logger - INFO - Year 2013: Population count = 223036
+2025-05-10 00:34:23,209 - src.common.logger - INFO - Year 2013: Simulation completed in 0.43 seconds
+2025-05-10 00:34:23,974 - src.common.logger - INFO - YEAR 2013 SUMMARY: SIMULATED TOTAL POPULATION: 314661877.49898005, VALIDATED POPULATION: 315993715, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:23,979 - src.common.logger - INFO - Completed simulation for year: 2013
+2025-05-10 00:34:23,980 - src.common.logger - INFO - Starting simulation for year: 2014
+2025-05-10 00:34:23,980 - src.common.logger - INFO - Simulating year: 2014
+2025-05-10 00:34:23,984 - src.common.logger - INFO - Year 2014: Age population updated in 0.00 seconds
+2025-05-10 00:34:23,984 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:23,985 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:23,985 - src.common.logger - INFO - Starting generation of new births for year 2014
+2025-05-10 00:34:23,985 - src.common.logger - INFO - Computing new births for year 2014
+2025-05-10 00:34:23,985 - src.common.logger - INFO - Computed 2989 new births for year 2014 with birth rate 0.013402
+2025-05-10 00:34:23,986 - src.common.logger - INFO - Calculated 2989 new births for year 2014 (Proportion: 1.34%)
+2025-05-10 00:34:23,986 - src.common.logger - INFO - Assigning genders for 2989 births in year 2014
+2025-05-10 00:34:23,996 - src.common.logger - INFO - Assigning races for 2989 births in year 2014
+2025-05-10 00:34:23,997 - src.common.logger - INFO - Gender distribution - Male: 1528, Female: 1461, Male Percentage: 51.12%
+2025-05-10 00:34:23,997 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:23,998 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:23,999 - src.common.logger - INFO - Successfully assigned races for 2989 births in year 2014
+2025-05-10 00:34:23,999 - src.common.logger - INFO - Successfully generated 2989 new births for year 2014
+2025-05-10 00:34:24,001 - src.common.logger - INFO - New births DataFrame created with shape: (2989, 6)
+2025-05-10 00:34:24,019 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:24,024 - src.common.logger - INFO - Year 2014: Births updated in 0.04 seconds
+2025-05-10 00:34:24,025 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:24,025 - src.common.logger - INFO - Generating immigration population for year 2014
+2025-05-10 00:34:24,025 - src.common.logger - INFO - Calculated 714 immigrants for year 2014 with immigration rate 0.003160
+2025-05-10 00:34:24,111 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:24,112 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:24,115 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:24,135 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (714, 6)
+2025-05-10 00:34:24,141 - src.common.logger - INFO - Year 2014: Immigration updated in 0.12 seconds
+2025-05-10 00:34:24,322 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:24,323 - src.common.logger - INFO - Year 2014: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:24,333 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:24,397 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:24,415 - src.common.logger - INFO - Year 2014: Deaths updated in 0.09 seconds
+2025-05-10 00:34:24,416 - src.common.logger - INFO - Year 2014: Population count = 224743
+2025-05-10 00:34:24,416 - src.common.logger - INFO - Year 2014: Simulation completed in 0.44 seconds
+2025-05-10 00:34:25,143 - src.common.logger - INFO - YEAR 2014 SUMMARY: SIMULATED TOTAL POPULATION: 317070133.67686504, VALIDATED POPULATION: 318301008, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:25,146 - src.common.logger - INFO - Completed simulation for year: 2014
+2025-05-10 00:34:25,147 - src.common.logger - INFO - Starting simulation for year: 2015
+2025-05-10 00:34:25,147 - src.common.logger - INFO - Simulating year: 2015
+2025-05-10 00:34:25,150 - src.common.logger - INFO - Year 2015: Age population updated in 0.00 seconds
+2025-05-10 00:34:25,150 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:25,151 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:25,151 - src.common.logger - INFO - Starting generation of new births for year 2015
+2025-05-10 00:34:25,151 - src.common.logger - INFO - Computing new births for year 2015
+2025-05-10 00:34:25,151 - src.common.logger - INFO - Computed 3007 new births for year 2015 with birth rate 0.013380
+2025-05-10 00:34:25,152 - src.common.logger - INFO - Calculated 3007 new births for year 2015 (Proportion: 1.34%)
+2025-05-10 00:34:25,152 - src.common.logger - INFO - Assigning genders for 3007 births in year 2015
+2025-05-10 00:34:25,219 - src.common.logger - INFO - Assigning races for 3007 births in year 2015
+2025-05-10 00:34:25,219 - src.common.logger - INFO - Gender distribution - Male: 1538, Female: 1469, Male Percentage: 51.15%
+2025-05-10 00:34:25,220 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:25,221 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:25,222 - src.common.logger - INFO - Successfully assigned races for 3007 births in year 2015
+2025-05-10 00:34:25,222 - src.common.logger - INFO - Successfully generated 3007 new births for year 2015
+2025-05-10 00:34:25,225 - src.common.logger - INFO - New births DataFrame created with shape: (3007, 6)
+2025-05-10 00:34:25,242 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:25,248 - src.common.logger - INFO - Year 2015: Births updated in 0.10 seconds
+2025-05-10 00:34:25,248 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:25,249 - src.common.logger - INFO - Generating immigration population for year 2015
+2025-05-10 00:34:25,249 - src.common.logger - INFO - Calculated 735 immigrants for year 2015 with immigration rate 0.003227
+2025-05-10 00:34:25,332 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:25,332 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:25,335 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:25,358 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (735, 6)
+2025-05-10 00:34:25,364 - src.common.logger - INFO - Year 2015: Immigration updated in 0.12 seconds
+2025-05-10 00:34:25,546 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:25,546 - src.common.logger - INFO - Year 2015: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:25,558 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:25,622 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:25,640 - src.common.logger - INFO - Year 2015: Deaths updated in 0.09 seconds
+2025-05-10 00:34:25,640 - src.common.logger - INFO - Year 2015: Population count = 226387
+2025-05-10 00:34:25,641 - src.common.logger - INFO - Year 2015: Simulation completed in 0.49 seconds
+2025-05-10 00:34:26,387 - src.common.logger - INFO - YEAR 2015 SUMMARY: SIMULATED TOTAL POPULATION: 319389508.695285, VALIDATED POPULATION: 320635163, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:26,391 - src.common.logger - INFO - Completed simulation for year: 2015
+2025-05-10 00:34:26,391 - src.common.logger - INFO - Starting simulation for year: 2016
+2025-05-10 00:34:26,391 - src.common.logger - INFO - Simulating year: 2016
+2025-05-10 00:34:26,395 - src.common.logger - INFO - Year 2016: Age population updated in 0.00 seconds
+2025-05-10 00:34:26,395 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:26,396 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:26,396 - src.common.logger - INFO - Starting generation of new births for year 2016
+2025-05-10 00:34:26,396 - src.common.logger - INFO - Computing new births for year 2016
+2025-05-10 00:34:26,396 - src.common.logger - INFO - Computed 3023 new births for year 2016 with birth rate 0.013353
+2025-05-10 00:34:26,397 - src.common.logger - INFO - Calculated 3023 new births for year 2016 (Proportion: 1.34%)
+2025-05-10 00:34:26,397 - src.common.logger - INFO - Assigning genders for 3023 births in year 2016
+2025-05-10 00:34:26,407 - src.common.logger - INFO - Assigning races for 3023 births in year 2016
+2025-05-10 00:34:26,408 - src.common.logger - INFO - Gender distribution - Male: 1547, Female: 1476, Male Percentage: 51.17%
+2025-05-10 00:34:26,408 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:26,409 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:26,410 - src.common.logger - INFO - Successfully assigned races for 3023 births in year 2016
+2025-05-10 00:34:26,410 - src.common.logger - INFO - Successfully generated 3023 new births for year 2016
+2025-05-10 00:34:26,413 - src.common.logger - INFO - New births DataFrame created with shape: (3023, 6)
+2025-05-10 00:34:26,431 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:26,436 - src.common.logger - INFO - Year 2016: Births updated in 0.04 seconds
+2025-05-10 00:34:26,437 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:26,437 - src.common.logger - INFO - Generating immigration population for year 2016
+2025-05-10 00:34:26,437 - src.common.logger - INFO - Calculated 592 immigrants for year 2016 with immigration rate 0.002582
+2025-05-10 00:34:26,511 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:26,511 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:26,514 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:26,532 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (592, 6)
+2025-05-10 00:34:26,538 - src.common.logger - INFO - Year 2016: Immigration updated in 0.10 seconds
+2025-05-10 00:34:26,719 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:26,720 - src.common.logger - INFO - Year 2016: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:26,729 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:26,794 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:26,813 - src.common.logger - INFO - Year 2016: Deaths updated in 0.09 seconds
+2025-05-10 00:34:26,813 - src.common.logger - INFO - Year 2016: Population count = 227895
+2025-05-10 00:34:26,814 - src.common.logger - INFO - Year 2016: Simulation completed in 0.42 seconds
+2025-05-10 00:34:27,597 - src.common.logger - INFO - YEAR 2016 SUMMARY: SIMULATED TOTAL POPULATION: 321517013.274225, VALIDATED POPULATION: 322941311, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:27,600 - src.common.logger - INFO - Completed simulation for year: 2016
+2025-05-10 00:34:27,601 - src.common.logger - INFO - Starting simulation for year: 2017
+2025-05-10 00:34:27,601 - src.common.logger - INFO - Simulating year: 2017
+2025-05-10 00:34:27,604 - src.common.logger - INFO - Year 2017: Age population updated in 0.00 seconds
+2025-05-10 00:34:27,605 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:27,605 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:27,605 - src.common.logger - INFO - Starting generation of new births for year 2017
+2025-05-10 00:34:27,605 - src.common.logger - INFO - Computing new births for year 2017
+2025-05-10 00:34:27,606 - src.common.logger - INFO - Computed 2941 new births for year 2017 with birth rate 0.012903
+2025-05-10 00:34:27,606 - src.common.logger - INFO - Calculated 2941 new births for year 2017 (Proportion: 1.29%)
+2025-05-10 00:34:27,606 - src.common.logger - INFO - Assigning genders for 2941 births in year 2017
+2025-05-10 00:34:27,607 - src.common.logger - INFO - Assigning races for 2941 births in year 2017
+2025-05-10 00:34:27,608 - src.common.logger - INFO - Gender distribution - Male: 1506, Female: 1435, Male Percentage: 51.21%
+2025-05-10 00:34:27,608 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:27,609 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:27,610 - src.common.logger - INFO - Successfully assigned races for 2941 births in year 2017
+2025-05-10 00:34:27,610 - src.common.logger - INFO - Successfully generated 2941 new births for year 2017
+2025-05-10 00:34:27,613 - src.common.logger - INFO - New births DataFrame created with shape: (2941, 6)
+2025-05-10 00:34:27,629 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:27,635 - src.common.logger - INFO - Year 2017: Births updated in 0.03 seconds
+2025-05-10 00:34:27,635 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:27,635 - src.common.logger - INFO - Generating immigration population for year 2017
+2025-05-10 00:34:27,636 - src.common.logger - INFO - Calculated 441 immigrants for year 2017 with immigration rate 0.001912
+2025-05-10 00:34:27,695 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:27,695 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:27,698 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:27,713 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (441, 6)
+2025-05-10 00:34:27,719 - src.common.logger - INFO - Year 2017: Immigration updated in 0.08 seconds
+2025-05-10 00:34:27,899 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:27,900 - src.common.logger - INFO - Year 2017: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:27,910 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:27,976 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:27,995 - src.common.logger - INFO - Year 2017: Deaths updated in 0.09 seconds
+2025-05-10 00:34:27,995 - src.common.logger - INFO - Year 2017: Population count = 229108
+2025-05-10 00:34:27,996 - src.common.logger - INFO - Year 2017: Simulation completed in 0.39 seconds
+2025-05-10 00:34:28,781 - src.common.logger - INFO - YEAR 2017 SUMMARY: SIMULATED TOTAL POPULATION: 323228328.29694, VALIDATED POPULATION: 324985539, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:28,785 - src.common.logger - INFO - Completed simulation for year: 2017
+2025-05-10 00:34:28,785 - src.common.logger - INFO - Starting simulation for year: 2018
+2025-05-10 00:34:28,786 - src.common.logger - INFO - Simulating year: 2018
+2025-05-10 00:34:28,789 - src.common.logger - INFO - Year 2018: Age population updated in 0.00 seconds
+2025-05-10 00:34:28,790 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:28,790 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:28,790 - src.common.logger - INFO - Starting generation of new births for year 2018
+2025-05-10 00:34:28,791 - src.common.logger - INFO - Computing new births for year 2018
+2025-05-10 00:34:28,791 - src.common.logger - INFO - Computed 2858 new births for year 2018 with birth rate 0.012474
+2025-05-10 00:34:28,791 - src.common.logger - INFO - Calculated 2858 new births for year 2018 (Proportion: 1.25%)
+2025-05-10 00:34:28,791 - src.common.logger - INFO - Assigning genders for 2858 births in year 2018
+2025-05-10 00:34:28,803 - src.common.logger - INFO - Assigning races for 2858 births in year 2018
+2025-05-10 00:34:28,804 - src.common.logger - INFO - Gender distribution - Male: 1464, Female: 1394, Male Percentage: 51.22%
+2025-05-10 00:34:28,804 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:28,805 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:28,806 - src.common.logger - INFO - Successfully assigned races for 2858 births in year 2018
+2025-05-10 00:34:28,806 - src.common.logger - INFO - Successfully generated 2858 new births for year 2018
+2025-05-10 00:34:28,809 - src.common.logger - INFO - New births DataFrame created with shape: (2858, 6)
+2025-05-10 00:34:28,825 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:28,832 - src.common.logger - INFO - Year 2018: Births updated in 0.04 seconds
+2025-05-10 00:34:28,832 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:28,833 - src.common.logger - INFO - Generating immigration population for year 2018
+2025-05-10 00:34:28,833 - src.common.logger - INFO - Calculated 409 immigrants for year 2018 with immigration rate 0.001763
+2025-05-10 00:34:28,882 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:28,882 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:28,885 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:28,898 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (409, 6)
+2025-05-10 00:34:28,904 - src.common.logger - INFO - Year 2018: Immigration updated in 0.07 seconds
+2025-05-10 00:34:29,089 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:29,090 - src.common.logger - INFO - Year 2018: Drinking status updated in 0.19 seconds
+2025-05-10 00:34:29,099 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:29,164 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:29,182 - src.common.logger - INFO - Year 2018: Deaths updated in 0.09 seconds
+2025-05-10 00:34:29,183 - src.common.logger - INFO - Year 2018: Population count = 230215
+2025-05-10 00:34:29,183 - src.common.logger - INFO - Year 2018: Simulation completed in 0.40 seconds
+2025-05-10 00:34:29,976 - src.common.logger - INFO - YEAR 2018 SUMMARY: SIMULATED TOTAL POPULATION: 324790097.24182504, VALIDATED POPULATION: 326687501, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:29,979 - src.common.logger - INFO - Completed simulation for year: 2018
+2025-05-10 00:34:29,979 - src.common.logger - INFO - Starting simulation for year: 2019
+2025-05-10 00:34:29,980 - src.common.logger - INFO - Simulating year: 2019
+2025-05-10 00:34:29,984 - src.common.logger - INFO - Year 2019: Age population updated in 0.00 seconds
+2025-05-10 00:34:29,984 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:29,984 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:29,984 - src.common.logger - INFO - Starting generation of new births for year 2019
+2025-05-10 00:34:29,984 - src.common.logger - INFO - Computing new births for year 2019
+2025-05-10 00:34:29,985 - src.common.logger - INFO - Computed 2872 new births for year 2019 with birth rate 0.012476
+2025-05-10 00:34:29,985 - src.common.logger - INFO - Calculated 2872 new births for year 2019 (Proportion: 1.25%)
+2025-05-10 00:34:29,985 - src.common.logger - INFO - Assigning genders for 2872 births in year 2019
+2025-05-10 00:34:29,996 - src.common.logger - INFO - Assigning races for 2872 births in year 2019
+2025-05-10 00:34:29,997 - src.common.logger - INFO - Gender distribution - Male: 1474, Female: 1398, Male Percentage: 51.32%
+2025-05-10 00:34:29,997 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:29,998 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:29,999 - src.common.logger - INFO - Successfully assigned races for 2872 births in year 2019
+2025-05-10 00:34:29,999 - src.common.logger - INFO - Successfully generated 2872 new births for year 2019
+2025-05-10 00:34:30,002 - src.common.logger - INFO - New births DataFrame created with shape: (2872, 6)
+2025-05-10 00:34:30,019 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:30,025 - src.common.logger - INFO - Year 2019: Births updated in 0.04 seconds
+2025-05-10 00:34:30,025 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:30,025 - src.common.logger - INFO - Generating immigration population for year 2019
+2025-05-10 00:34:30,026 - src.common.logger - INFO - Calculated 1675 immigrants for year 2019 with immigration rate 0.007187
+2025-05-10 00:34:30,216 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:30,217 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:30,221 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:30,269 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (1675, 6)
+2025-05-10 00:34:30,274 - src.common.logger - INFO - Year 2019: Immigration updated in 0.25 seconds
+2025-05-10 00:34:30,465 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:30,465 - src.common.logger - INFO - Year 2019: Drinking status updated in 0.19 seconds
+2025-05-10 00:34:30,475 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:30,540 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:30,559 - src.common.logger - INFO - Year 2019: Deaths updated in 0.09 seconds
+2025-05-10 00:34:30,560 - src.common.logger - INFO - Year 2019: Population count = 232571
+2025-05-10 00:34:30,560 - src.common.logger - INFO - Year 2019: Simulation completed in 0.58 seconds
+2025-05-10 00:34:31,363 - src.common.logger - INFO - YEAR 2019 SUMMARY: SIMULATED TOTAL POPULATION: 328113970.44340503, VALIDATED POPULATION: 328239523, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:31,366 - src.common.logger - INFO - Completed simulation for year: 2019
+2025-05-10 00:34:31,367 - src.common.logger - INFO - Starting simulation for year: 2020
+2025-05-10 00:34:31,367 - src.common.logger - INFO - Simulating year: 2020
+2025-05-10 00:34:31,371 - src.common.logger - INFO - Year 2020: Age population updated in 0.00 seconds
+2025-05-10 00:34:31,371 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:31,371 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:31,372 - src.common.logger - INFO - Starting generation of new births for year 2020
+2025-05-10 00:34:31,372 - src.common.logger - INFO - Computing new births for year 2020
+2025-05-10 00:34:31,372 - src.common.logger - INFO - Computed 2885 new births for year 2020 with birth rate 0.012404
+2025-05-10 00:34:31,372 - src.common.logger - INFO - Calculated 2885 new births for year 2020 (Proportion: 1.24%)
+2025-05-10 00:34:31,373 - src.common.logger - INFO - Assigning genders for 2885 births in year 2020
+2025-05-10 00:34:31,383 - src.common.logger - INFO - Assigning races for 2885 births in year 2020
+2025-05-10 00:34:31,384 - src.common.logger - INFO - Gender distribution - Male: 1480, Female: 1405, Male Percentage: 51.30%
+2025-05-10 00:34:31,385 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:31,385 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:31,386 - src.common.logger - INFO - Successfully assigned races for 2885 births in year 2020
+2025-05-10 00:34:31,386 - src.common.logger - INFO - Successfully generated 2885 new births for year 2020
+2025-05-10 00:34:31,389 - src.common.logger - INFO - New births DataFrame created with shape: (2885, 6)
+2025-05-10 00:34:31,406 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:31,412 - src.common.logger - INFO - Year 2020: Births updated in 0.04 seconds
+2025-05-10 00:34:31,412 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:31,413 - src.common.logger - INFO - Generating immigration population for year 2020
+2025-05-10 00:34:31,413 - src.common.logger - INFO - Calculated 144 immigrants for year 2020 with immigration rate 0.000612
+2025-05-10 00:34:31,434 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:31,434 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:31,437 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:31,442 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (144, 6)
+2025-05-10 00:34:31,448 - src.common.logger - INFO - Year 2020: Immigration updated in 0.04 seconds
+2025-05-10 00:34:31,631 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:31,632 - src.common.logger - INFO - Year 2020: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:31,642 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:31,710 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:31,728 - src.common.logger - INFO - Year 2020: Deaths updated in 0.10 seconds
+2025-05-10 00:34:31,728 - src.common.logger - INFO - Year 2020: Population count = 232973
+2025-05-10 00:34:31,728 - src.common.logger - INFO - Year 2020: Simulation completed in 0.36 seconds
+2025-05-10 00:34:32,529 - src.common.logger - INFO - YEAR 2020 SUMMARY: SIMULATED TOTAL POPULATION: 328681116.88951504, VALIDATED POPULATION: 331526933, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:32,533 - src.common.logger - INFO - Completed simulation for year: 2020
+2025-05-10 00:34:32,533 - src.common.logger - INFO - Starting simulation for year: 2021
+2025-05-10 00:34:32,534 - src.common.logger - INFO - Simulating year: 2021
+2025-05-10 00:34:32,538 - src.common.logger - INFO - Year 2021: Age population updated in 0.00 seconds
+2025-05-10 00:34:32,538 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:32,539 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:32,539 - src.common.logger - INFO - Starting generation of new births for year 2021
+2025-05-10 00:34:32,539 - src.common.logger - INFO - Computing new births for year 2021
+2025-05-10 00:34:32,539 - src.common.logger - INFO - Computed 2895 new births for year 2021 with birth rate 0.012427
+2025-05-10 00:34:32,539 - src.common.logger - INFO - Calculated 2895 new births for year 2021 (Proportion: 1.24%)
+2025-05-10 00:34:32,540 - src.common.logger - INFO - Assigning genders for 2895 births in year 2021
+2025-05-10 00:34:32,551 - src.common.logger - INFO - Assigning races for 2895 births in year 2021
+2025-05-10 00:34:32,552 - src.common.logger - INFO - Gender distribution - Male: 1484, Female: 1411, Male Percentage: 51.26%
+2025-05-10 00:34:32,552 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:32,553 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:32,554 - src.common.logger - INFO - Successfully assigned races for 2895 births in year 2021
+2025-05-10 00:34:32,554 - src.common.logger - INFO - Successfully generated 2895 new births for year 2021
+2025-05-10 00:34:32,557 - src.common.logger - INFO - New births DataFrame created with shape: (2895, 6)
+2025-05-10 00:34:32,574 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:32,580 - src.common.logger - INFO - Year 2021: Births updated in 0.04 seconds
+2025-05-10 00:34:32,581 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:32,581 - src.common.logger - INFO - Generating immigration population for year 2021
+2025-05-10 00:34:32,581 - src.common.logger - INFO - Calculated 389 immigrants for year 2021 with immigration rate 0.001649
+2025-05-10 00:34:32,632 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:32,632 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:32,635 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:32,648 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (389, 6)
+2025-05-10 00:34:32,654 - src.common.logger - INFO - Year 2021: Immigration updated in 0.07 seconds
+2025-05-10 00:34:32,840 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:32,841 - src.common.logger - INFO - Year 2021: Drinking status updated in 0.19 seconds
+2025-05-10 00:34:32,850 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:32,917 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:32,938 - src.common.logger - INFO - Year 2021: Deaths updated in 0.10 seconds
+2025-05-10 00:34:32,938 - src.common.logger - INFO - Year 2021: Population count = 233506
+2025-05-10 00:34:32,939 - src.common.logger - INFO - Year 2021: Simulation completed in 0.40 seconds
+2025-05-10 00:34:33,759 - src.common.logger - INFO - YEAR 2021 SUMMARY: SIMULATED TOTAL POPULATION: 329433079.71483004, VALIDATED POPULATION: 332048977, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:33,763 - src.common.logger - INFO - Completed simulation for year: 2021
+2025-05-10 00:34:33,763 - src.common.logger - INFO - Starting simulation for year: 2022
+2025-05-10 00:34:33,763 - src.common.logger - INFO - Simulating year: 2022
+2025-05-10 00:34:33,767 - src.common.logger - INFO - Year 2022: Age population updated in 0.00 seconds
+2025-05-10 00:34:33,768 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:33,768 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:33,768 - src.common.logger - INFO - Starting generation of new births for year 2022
+2025-05-10 00:34:33,768 - src.common.logger - INFO - Computing new births for year 2022
+2025-05-10 00:34:33,768 - src.common.logger - INFO - Computed 2740 new births for year 2022 with birth rate 0.011733
+2025-05-10 00:34:33,769 - src.common.logger - INFO - Calculated 2740 new births for year 2022 (Proportion: 1.17%)
+2025-05-10 00:34:33,769 - src.common.logger - INFO - Assigning genders for 2740 births in year 2022
+2025-05-10 00:34:33,779 - src.common.logger - INFO - Assigning races for 2740 births in year 2022
+2025-05-10 00:34:33,780 - src.common.logger - INFO - Gender distribution - Male: 1409, Female: 1331, Male Percentage: 51.42%
+2025-05-10 00:34:33,780 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:33,781 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:33,782 - src.common.logger - INFO - Successfully assigned races for 2740 births in year 2022
+2025-05-10 00:34:33,782 - src.common.logger - INFO - Successfully generated 2740 new births for year 2022
+2025-05-10 00:34:33,784 - src.common.logger - INFO - New births DataFrame created with shape: (2740, 6)
+2025-05-10 00:34:33,801 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:33,807 - src.common.logger - INFO - Year 2022: Births updated in 0.04 seconds
+2025-05-10 00:34:33,808 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:33,808 - src.common.logger - INFO - Generating immigration population for year 2022
+2025-05-10 00:34:33,808 - src.common.logger - INFO - Calculated 602 immigrants for year 2022 with immigration rate 0.002548
+2025-05-10 00:34:33,886 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:33,886 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:33,889 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:33,911 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (602, 6)
+2025-05-10 00:34:33,918 - src.common.logger - INFO - Year 2022: Immigration updated in 0.11 seconds
+2025-05-10 00:34:34,102 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:34,102 - src.common.logger - INFO - Year 2022: Drinking status updated in 0.18 seconds
+2025-05-10 00:34:34,111 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:34,177 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:34,196 - src.common.logger - INFO - Year 2022: Deaths updated in 0.09 seconds
+2025-05-10 00:34:34,196 - src.common.logger - INFO - Year 2022: Population count = 234042
+2025-05-10 00:34:34,196 - src.common.logger - INFO - Year 2022: Simulation completed in 0.43 seconds
+2025-05-10 00:34:35,010 - src.common.logger - INFO - YEAR 2022 SUMMARY: SIMULATED TOTAL POPULATION: 330189274.97631, VALIDATED POPULATION: 333287557, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:35,013 - src.common.logger - INFO - Completed simulation for year: 2022
+2025-05-10 00:34:35,014 - src.common.logger - INFO - Starting simulation for year: 2023
+2025-05-10 00:34:35,014 - src.common.logger - INFO - Simulating year: 2023
+2025-05-10 00:34:35,019 - src.common.logger - INFO - Year 2023: Age population updated in 0.00 seconds
+2025-05-10 00:34:35,020 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-10 00:34:35,020 - src.common.logger - INFO - Random seed set to 123
+2025-05-10 00:34:35,020 - src.common.logger - INFO - Starting generation of new births for year 2023
+2025-05-10 00:34:35,020 - src.common.logger - INFO - Computing new births for year 2023
+2025-05-10 00:34:35,020 - src.common.logger - INFO - Computed 2717 new births for year 2023 with birth rate 0.011611
+2025-05-10 00:34:35,021 - src.common.logger - INFO - Calculated 2717 new births for year 2023 (Proportion: 1.16%)
+2025-05-10 00:34:35,021 - src.common.logger - INFO - Assigning genders for 2717 births in year 2023
+2025-05-10 00:34:35,031 - src.common.logger - INFO - Assigning races for 2717 births in year 2023
+2025-05-10 00:34:35,031 - src.common.logger - INFO - Gender distribution - Male: 1395, Female: 1322, Male Percentage: 51.34%
+2025-05-10 00:34:35,032 - src.common.logger - INFO - Assigning races to male population
+2025-05-10 00:34:35,033 - src.common.logger - INFO - Assigning races to female population
+2025-05-10 00:34:35,034 - src.common.logger - INFO - Successfully assigned races for 2717 births in year 2023
+2025-05-10 00:34:35,034 - src.common.logger - INFO - Successfully generated 2717 new births for year 2023
+2025-05-10 00:34:35,036 - src.common.logger - INFO - New births DataFrame created with shape: (2717, 6)
+2025-05-10 00:34:35,055 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-10 00:34:35,061 - src.common.logger - INFO - Year 2023: Births updated in 0.04 seconds
+2025-05-10 00:34:35,061 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-10 00:34:35,062 - src.common.logger - INFO - Generating immigration population for year 2023
+2025-05-10 00:34:35,062 - src.common.logger - INFO - Calculated 603 immigrants for year 2023 with immigration rate 0.002548
+2025-05-10 00:34:35,138 - src.common.logger - INFO - Unique age groups in drinking distribution: ['18-24' '25-34' '35-54' '55 and over' '0-17']
+2025-05-10 00:34:35,139 - src.common.logger - INFO - Using 5-group age cutoff for age group determination.
+2025-05-10 00:34:35,141 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-10 00:34:35,166 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (603, 6)
+2025-05-10 00:34:35,171 - src.common.logger - INFO - Year 2023: Immigration updated in 0.11 seconds
+2025-05-10 00:34:35,359 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-10 00:34:35,360 - src.common.logger - INFO - Year 2023: Drinking status updated in 0.19 seconds
+2025-05-10 00:34:35,369 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-10 00:34:35,449 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-10 00:34:35,469 - src.common.logger - INFO - Year 2023: Deaths updated in 0.11 seconds
+2025-05-10 00:34:35,469 - src.common.logger - INFO - Year 2023: Population count = 235279
+2025-05-10 00:34:35,469 - src.common.logger - INFO - Year 2023: Simulation completed in 0.45 seconds
+2025-05-10 00:34:36,299 - src.common.logger - INFO - YEAR 2023 SUMMARY: SIMULATED TOTAL POPULATION: 331934449.488345, VALIDATED POPULATION: 334914895, [91mVALIDATION STATUS: True[0m
+2025-05-10 00:34:36,303 - src.common.logger - INFO - Completed simulation for year: 2023
+2025-05-10 00:34:36,303 - src.common.logger - INFO - Simulation process completed.
+2025-05-10 00:34:36,304 - src.common.logger - INFO - Simulation process completed in 0.82 MINUTES.

@@ -1,0 +1,22 @@
+2025-05-08 19:21:14,423 - src.common.logger - INFO - Logger setup complete.
+2025-05-08 19:21:14,426 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_191800.log
+2025-05-08 19:21:14,428 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_191919.log
+2025-05-08 19:21:14,429 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_192019.log
+2025-05-08 19:21:15,785 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-08 19:21:15,786 - src.common.logger - INFO - Starting simulation process...
+2025-05-08 19:21:15,787 - src.common.logger - INFO - Initializing simulation...
+2025-05-08 19:21:15,787 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-08 19:21:15,787 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-08 19:21:15,787 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-08 19:21:15,788 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-08 19:21:15,788 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-08 19:21:15,788 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-08 19:21:15,788 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-08 19:21:15,789 - src.common.logger - INFO - DrinkingStatusLookupGenerator initialized with base_path: test/data/input_data, excel_transition_probability_drinking_file_name: Drinking_Stage_Transition_Probabilities.xlsx
+2025-05-08 19:21:15,789 - src.common.logger - INFO - Initializing InitialPopulationLookupGenerator
+2025-05-08 19:21:15,789 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data
+2025-05-08 19:21:15,789 - src.common.logger - INFO - Generating birth lookup tables.
+2025-05-08 19:21:15,790 - src.common.logger - INFO - Reading data from sheet: Birth
+2025-05-08 19:21:15,790 - src.common.logger - INFO - Attempting to read sheet 'Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-08 19:21:16,451 - src.common.logger - ERROR - An unexpected error occurred while reading the sheet 'Birth': 'ExcelDataReader' object has no attribute 'data_file'
+2025-05-08 19:21:16,451 - src.common.logger - ERROR - Failed to generate birth lookup tables: An unexpected error occurred while reading the sheet 'Birth': 'ExcelDataReader' object has no attribute 'data_file'

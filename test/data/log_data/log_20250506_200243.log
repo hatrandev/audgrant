@@ -1,0 +1,246 @@
+2025-05-06 20:02:43,577 - src.common.logger - INFO - Logger setup complete.
+2025-05-06 20:02:44,932 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,932 - src.common.logger - INFO - Starting simulation process...
+2025-05-06 20:02:44,933 - src.common.logger - INFO - Initializing simulation...
+2025-05-06 20:02:44,933 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-06 20:02:44,933 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-06 20:02:44,934 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,934 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,934 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,935 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,935 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,935 - src.common.logger - INFO - DrinkingStatusLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,935 - src.common.logger - INFO - Initializing InitialPopulationLookupGenerator
+2025-05-06 20:02:44,935 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:44,936 - src.common.logger - INFO - Generating birth lookup tables.
+2025-05-06 20:02:44,936 - src.common.logger - INFO - Reading data from sheet: Birth
+2025-05-06 20:02:44,936 - src.common.logger - INFO - Attempting to read sheet 'Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,502 - src.common.logger - INFO - Successfully read sheet 'Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,510 - src.common.logger - INFO - Lookup table generation for Birth_Rate completed.
+2025-05-06 20:02:45,510 - src.common.logger - INFO - Reading data from sheet: Sex_Ratio_At_Birth
+2025-05-06 20:02:45,511 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_At_Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,560 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_At_Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,564 - src.common.logger - INFO - Lookup table generation for Male_Ratio completed.
+2025-05-06 20:02:45,565 - src.common.logger - INFO - Processing race data for 'Under 5 years' from sheet: Race_Sex_Age
+2025-05-06 20:02:45,565 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,904 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:45,948 - src.common.logger - INFO - Processed race data for 'Under 5 years': 50 years found.
+2025-05-06 20:02:45,949 - src.common.logger - INFO - Successfully generated birth lookup tables.
+2025-05-06 20:02:45,949 - src.common.logger - INFO - Generating death lookup tables.
+2025-05-06 20:02:45,950 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 20:02:45,950 - src.common.logger - INFO - Attempting to read sheet 'Death_Rate_Data' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:47,142 - src.common.logger - INFO - Successfully read sheet 'Death_Rate_Data' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:50,135 - src.common.logger - INFO - Lookup table for Rate loaded successfully as DataFrame.
+2025-05-06 20:02:50,164 - src.common.logger - INFO - Successfully generated death lookup tables.
+2025-05-06 20:02:50,165 - src.common.logger - INFO - Generating immigration lookup tables.
+2025-05-06 20:02:50,165 - src.common.logger - INFO - Starting generation of all lookups.
+2025-05-06 20:02:50,165 - src.common.logger - INFO - Generating age lookup from sheet: Age_Ratio_All_Years
+2025-05-06 20:02:50,166 - src.common.logger - INFO - Generating lookup for sheet: Age_Ratio_All_Years, ratio_column: Age_Ratio, key_column: Age
+2025-05-06 20:02:50,166 - src.common.logger - INFO - Attempting to read sheet 'Age_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:50,297 - src.common.logger - INFO - Successfully read sheet 'Age_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:50,590 - src.common.logger - INFO - Lookup generated for sheet: Age_Ratio_All_Years
+2025-05-06 20:02:50,590 - src.common.logger - INFO - Age lookup generation completed.
+2025-05-06 20:02:50,590 - src.common.logger - INFO - Generating sex lookup from sheet: Sex_Ratio_All_Years
+2025-05-06 20:02:50,591 - src.common.logger - INFO - Generating lookup for sheet: Sex_Ratio_All_Years, ratio_column: Male_Ratio, key_column: Age
+2025-05-06 20:02:50,591 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:50,749 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,017 - src.common.logger - INFO - Lookup generated for sheet: Sex_Ratio_All_Years
+2025-05-06 20:02:51,018 - src.common.logger - INFO - Sex lookup generation completed.
+2025-05-06 20:02:51,018 - src.common.logger - INFO - Generating race lookup from sheet: Race_Sex_Age
+2025-05-06 20:02:51,018 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,326 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,840 - src.common.logger - INFO - Race lookup generation completed.
+2025-05-06 20:02:51,840 - src.common.logger - INFO - Generating immigration rate lookup from sheet: Immigration
+2025-05-06 20:02:51,840 - src.common.logger - INFO - Attempting to read sheet 'Immigration' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,882 - src.common.logger - INFO - Successfully read sheet 'Immigration' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,886 - src.common.logger - INFO - Immigration rate lookup generation completed.
+2025-05-06 20:02:51,887 - src.common.logger - INFO - Lookup validation passed.
+2025-05-06 20:02:51,888 - src.common.logger - INFO - Lookup validation passed.
+2025-05-06 20:02:51,890 - src.common.logger - INFO - Lookup validation passed.
+2025-05-06 20:02:51,890 - src.common.logger - INFO - Successfully generated immigration lookup tables.
+2025-05-06 20:02:51,890 - src.common.logger - INFO - Generating drinking_transition lookup tables.
+2025-05-06 20:02:51,891 - src.common.logger - INFO - Reading data from sheet: Drinking_TransitionProbability
+2025-05-06 20:02:51,891 - src.common.logger - INFO - Attempting to read sheet 'Drinking_TransitionProbability' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:51,994 - src.common.logger - INFO - Successfully read sheet 'Drinking_TransitionProbability' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,339 - src.common.logger - INFO - Successfully generated drinking_transition lookup tables.
+2025-05-06 20:02:52,339 - src.common.logger - INFO - Generating initial_population lookup tables.
+2025-05-06 20:02:52,340 - src.common.logger - INFO - Generating initial population lookup tables.
+2025-05-06 20:02:52,340 - src.common.logger - INFO - Processing race data from sheet: Race_Sex_Age
+2025-05-06 20:02:52,340 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,626 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,638 - src.common.logger - INFO - Processed race data: 36 unique age-sex groups found.
+2025-05-06 20:02:52,638 - src.common.logger - INFO - Processing age data from sheet: Initial_Population
+2025-05-06 20:02:52,638 - src.common.logger - INFO - Attempting to read sheet 'Initial_Population' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,686 - src.common.logger - INFO - Successfully read sheet 'Initial_Population' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,693 - src.common.logger - INFO - Processed age data: 101 unique age groups found.
+2025-05-06 20:02:52,693 - src.common.logger - INFO - Processing sex data from sheet: Sex_Average
+2025-05-06 20:02:52,693 - src.common.logger - INFO - Attempting to read sheet 'Sex_Average' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,741 - src.common.logger - INFO - Successfully read sheet 'Sex_Average' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,748 - src.common.logger - INFO - Processed sex data: 101 unique age groups found.
+2025-05-06 20:02:52,748 - src.common.logger - INFO - Processing drinking data from sheet: Drinking_Prevalence
+2025-05-06 20:02:52,749 - src.common.logger - INFO - Attempting to read sheet 'Drinking_Prevalence' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,793 - src.common.logger - INFO - Successfully read sheet 'Drinking_Prevalence' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-06 20:02:52,814 - src.common.logger - INFO - Processed drinking data: 32 unique groups found.
+2025-05-06 20:02:52,815 - src.common.logger - INFO - Initial population lookup tables generated successfully.
+2025-05-06 20:02:52,815 - src.common.logger - INFO - Successfully generated initial_population lookup tables.
+2025-05-06 20:02:52,815 - src.common.logger - INFO - Lookup tables generated successfully.
+2025-05-06 20:02:52,815 - src.common.logger - INFO - Lookup tables generation took 7.88 seconds.
+2025-05-06 20:02:52,816 - src.common.logger - INFO - Initializing Population Initializer...
+2025-05-06 20:02:52,816 - src.common.logger - INFO - Generating initial population...
+2025-05-06 20:02:52,817 - src.common.logger - INFO - Population generation started with total population: 200000
+2025-05-06 20:02:52,940 - src.common.logger - INFO - Assigned unique ID to each individual in the population.
+2025-05-06 20:02:52,958 - src.common.logger - INFO - Age: 0, Count: 2721, Proportion: 1.36%
+2025-05-06 20:02:52,959 - src.common.logger - INFO - Age: 1, Count: 2708, Proportion: 1.35%
+2025-05-06 20:02:52,959 - src.common.logger - INFO - Age: 2, Count: 2695, Proportion: 1.35%
+2025-05-06 20:03:02,792 - src.common.logger - INFO - Age: 0.0, Total: 2721, Male Count: 1401, Male Ratio: 51.49%
+2025-05-06 20:03:02,792 - src.common.logger - INFO - Age: 1.0, Total: 2708, Male Count: 1338, Male Ratio: 49.41%
+2025-05-06 20:03:02,792 - src.common.logger - INFO - Age: 2.0, Total: 2695, Male Count: 1373, Male Ratio: 50.95%
+2025-05-06 20:03:02,792 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Female, Total: 7121
+2025-05-06 20:03:02,793 - src.common.logger - INFO -   Race: Hispanic, Count: 1094, Proportion: 15.36%
+2025-05-06 20:03:02,793 - src.common.logger - INFO -   Race: White, Count: 4510, Proportion: 63.33%
+2025-05-06 20:03:02,794 - src.common.logger - INFO -   Race: Other, Count: 481, Proportion: 6.75%
+2025-05-06 20:03:02,794 - src.common.logger - INFO -   Race: Black, Count: 1036, Proportion: 14.55%
+2025-05-06 20:03:02,794 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Male, Total: 7487
+2025-05-06 20:03:02,795 - src.common.logger - INFO -   Race: Hispanic, Count: 1206, Proportion: 16.11%
+2025-05-06 20:03:02,795 - src.common.logger - INFO -   Race: White, Count: 4703, Proportion: 62.82%
+2025-05-06 20:03:02,795 - src.common.logger - INFO -   Race: Black, Count: 1063, Proportion: 14.20%
+2025-05-06 20:03:02,795 - src.common.logger - INFO -   Race: Other, Count: 515, Proportion: 6.88%
+2025-05-06 20:03:02,796 - src.common.logger - INFO - Age Group: 15 to 19 years, Gender: Female, Total: 6931
+2025-05-06 20:03:02,796 - src.common.logger - INFO -   Race: White, Count: 4379, Proportion: 63.18%
+2025-05-06 20:03:02,796 - src.common.logger - INFO -   Race: Black, Count: 982, Proportion: 14.17%
+2025-05-06 20:03:02,796 - src.common.logger - INFO -   Race: Hispanic, Count: 1088, Proportion: 15.70%
+2025-05-06 20:03:02,796 - src.common.logger - INFO -   Race: Other, Count: 482, Proportion: 6.95%
+2025-05-06 20:03:02,796 - src.common.logger - INFO - Population generation complete. Total Population Generated: 200000, Configured Initial Population: 200000, Time Taken: 9.98 seconds
+2025-05-06 20:03:02,982 - src.common.logger - INFO - Population DataFrame created with shape: (200000, 7)
+2025-05-06 20:03:03,028 - src.common.logger - INFO - Combined Sex, Race, and Immigration into a single column and removed the individual columns.
+2025-05-06 20:03:03,207 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-06 20:03:08,884 - src.common.logger - INFO - Mapped Age to Age_Group and added Age_Group column to the DataFrame.
+2025-05-06 20:03:08,885 - src.common.logger - INFO - Population initialization took 16.07 seconds.
+2025-05-06 20:03:08,885 - src.common.logger - INFO - Simulation initialization complete.
+2025-05-06 20:03:09,638 - src.common.logger - INFO - Starting simulation for year: 2001
+2025-05-06 20:03:09,639 - src.common.logger - INFO - Simulating year: 2001
+2025-05-06 20:03:09,642 - src.common.logger - INFO - Year 2001: Age population updated in 0.00 seconds
+2025-05-06 20:03:09,643 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-06 20:03:09,644 - src.common.logger - INFO - Random seed set to 123
+2025-05-06 20:03:09,644 - src.common.logger - INFO - Starting generation of new births for year 2001
+2025-05-06 20:03:09,645 - src.common.logger - INFO - Computing new births for year 2001
+2025-05-06 20:03:09,645 - src.common.logger - INFO - Computed 2805 new births for year 2001 with birth rate 0.014027
+2025-05-06 20:03:09,645 - src.common.logger - INFO - Calculated 2805 new births for year 2001 (Proportion: 1.40%)
+2025-05-06 20:03:09,645 - src.common.logger - INFO - Assigning genders for 2805 births in year 2001
+2025-05-06 20:03:09,647 - src.common.logger - INFO - Assigning races for 2805 births in year 2001
+2025-05-06 20:03:09,648 - src.common.logger - INFO - Gender distribution - Male: 1435, Female: 1370, Male Percentage: 51.16%
+2025-05-06 20:03:09,648 - src.common.logger - INFO - Assigning races to male population
+2025-05-06 20:03:09,649 - src.common.logger - INFO - Assigning races to female population
+2025-05-06 20:03:09,650 - src.common.logger - INFO - Successfully assigned races for 2805 births in year 2001
+2025-05-06 20:03:09,650 - src.common.logger - INFO - Successfully generated 2805 new births for year 2001
+2025-05-06 20:03:09,652 - src.common.logger - INFO - New births DataFrame created with shape: (2805, 6)
+2025-05-06 20:03:09,667 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-06 20:03:09,673 - src.common.logger - INFO - Year 2001: Births updated in 0.03 seconds
+2025-05-06 20:03:09,673 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-06 20:03:09,674 - src.common.logger - INFO - Generating immigration population for year 2001
+2025-05-06 20:03:09,674 - src.common.logger - INFO - Calculated 754 immigrants for year 2001 with immigration rate 0.003720
+2025-05-06 20:03:09,762 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-06 20:03:09,784 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (754, 6)
+2025-05-06 20:03:09,790 - src.common.logger - INFO - Year 2001: Immigration updated in 0.12 seconds
+2025-05-06 20:03:14,511 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-06 20:03:14,511 - src.common.logger - INFO - Year 2001: Drinking status updated in 4.72 seconds
+2025-05-06 20:03:14,519 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-06 20:03:14,564 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-06 20:03:14,579 - src.common.logger - INFO - Year 2001: Deaths updated in 0.07 seconds
+2025-05-06 20:03:14,580 - src.common.logger - INFO - Year 2001: Population count = 201811
+2025-05-06 20:03:14,580 - src.common.logger - INFO - Year 2001: Simulation completed in 4.94 seconds
+2025-05-06 20:03:14,580 - src.common.logger - INFO - Completed simulation for year: 2001
+2025-05-06 20:03:15,317 - src.common.logger - INFO - [91mYEAR 2001 SUMMARY: SIMULATED TOTAL POPULATION: 20181100, VALIDATED POPULATION: 284968955, VALIDATION STATUS: False, DETAILS: [2001, 201811, 51387, 150424, 0.4916084851668145, 0.003716348464652571, 139385, 24212, 25856, 12358, 77940, 58781, 6869, 3658, 3176, 8235, 0.3402049078740808, 14134, 0.5839048169875237, 691, 0.028546641328596217, 869, 0.035900190035528384, 277, 0.011443443774270841, 11131, 0.37561584666261727, 14925, 0.5036444624417898, 1550, 0.05230478504420598, 1068, 0.036039684146588376, 960, 0.03239522170479854, 10564, 0.5545115741955803, 6839, 0.3589837803789827, 1085, 0.056952390950606266, 379, 0.019893968820534354, 184, 0.009658285654296363, 12864, 0.5488991295442909, 8966, 0.38257381805768903, 668, 0.0285031575354156, 593, 0.02530295272230756, 345, 0.01472094214029698, 18202, 0.6035345999535794, 9187, 0.30461885341025896, 1301, 0.043138035080738754, 468, 0.015517755893763056, 1001, 0.03319075566165987, 16944, 0.7078285571058568, 4730, 0.1975937839418498, 1574, 0.06575319575570224, 281, 0.011738658200350907, 409, 0.017085804996240288][0m
+2025-05-06 20:03:15,321 - src.common.logger - INFO - Starting simulation for year: 2002
+2025-05-06 20:03:15,321 - src.common.logger - INFO - Simulating year: 2002
+2025-05-06 20:03:15,324 - src.common.logger - INFO - Year 2002: Age population updated in 0.00 seconds
+2025-05-06 20:03:15,324 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-06 20:03:15,325 - src.common.logger - INFO - Random seed set to 123
+2025-05-06 20:03:15,325 - src.common.logger - INFO - Starting generation of new births for year 2002
+2025-05-06 20:03:15,325 - src.common.logger - INFO - Computing new births for year 2002
+2025-05-06 20:03:15,326 - src.common.logger - INFO - Computed 2804 new births for year 2002 with birth rate 0.013895
+2025-05-06 20:03:15,326 - src.common.logger - INFO - Calculated 2804 new births for year 2002 (Proportion: 1.39%)
+2025-05-06 20:03:15,326 - src.common.logger - INFO - Assigning genders for 2804 births in year 2002
+2025-05-06 20:03:15,327 - src.common.logger - INFO - Assigning races for 2804 births in year 2002
+2025-05-06 20:03:15,328 - src.common.logger - INFO - Gender distribution - Male: 1434, Female: 1370, Male Percentage: 51.14%
+2025-05-06 20:03:15,329 - src.common.logger - INFO - Assigning races to male population
+2025-05-06 20:03:15,330 - src.common.logger - INFO - Assigning races to female population
+2025-05-06 20:03:15,331 - src.common.logger - INFO - Successfully assigned races for 2804 births in year 2002
+2025-05-06 20:03:15,331 - src.common.logger - INFO - Successfully generated 2804 new births for year 2002
+2025-05-06 20:03:15,334 - src.common.logger - INFO - New births DataFrame created with shape: (2804, 6)
+2025-05-06 20:03:15,350 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-06 20:03:15,355 - src.common.logger - INFO - Year 2002: Births updated in 0.03 seconds
+2025-05-06 20:03:15,356 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-06 20:03:15,356 - src.common.logger - INFO - Generating immigration population for year 2002
+2025-05-06 20:03:15,357 - src.common.logger - INFO - Calculated 693 immigrants for year 2002 with immigration rate 0.003389
+2025-05-06 20:03:15,447 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-06 20:03:15,468 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (693, 6)
+2025-05-06 20:03:15,473 - src.common.logger - INFO - Year 2002: Immigration updated in 0.12 seconds
+2025-05-06 20:03:20,213 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-06 20:03:20,213 - src.common.logger - INFO - Year 2002: Drinking status updated in 4.74 seconds
+2025-05-06 20:03:20,221 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-06 20:03:20,267 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-06 20:03:20,283 - src.common.logger - INFO - Year 2002: Deaths updated in 0.07 seconds
+2025-05-06 20:03:20,283 - src.common.logger - INFO - Year 2002: Population count = 203526
+2025-05-06 20:03:20,283 - src.common.logger - INFO - Year 2002: Simulation completed in 4.96 seconds
+2025-05-06 20:03:20,288 - src.common.logger - INFO - Completed simulation for year: 2002
+2025-05-06 20:03:20,995 - src.common.logger - INFO - [91mYEAR 2002 SUMMARY: SIMULATED TOTAL POPULATION: 20352600, VALIDATED POPULATION: 287625193, VALIDATION STATUS: False, DETAILS: [2002, 203526, 51496, 152030, 0.4917848333873805, 0.0070310427169010346, 140087, 24474, 26433, 12532, 80433, 55282, 5855, 3863, 6597, 9130, 0.3753957485300769, 13105, 0.5388347518605321, 518, 0.02129846634595617, 812, 0.033386785082850215, 756, 0.03108424818058468, 11235, 0.3770007717861817, 14483, 0.4859904030066105, 1087, 0.03647528606422603, 1238, 0.04154223012650582, 1758, 0.05899130901647596, 10706, 0.545778955954323, 7010, 0.3573613376835236, 701, 0.035736133768352364, 692, 0.03527732463295269, 507, 0.025846247960848286, 13573, 0.5790034979950516, 7464, 0.31840286664960327, 761, 0.032463100418053066, 805, 0.03434007337257913, 839, 0.03579046156471291, 18298, 0.6046127412106793, 8547, 0.28241475019825535, 1273, 0.042063177372455726, 220, 0.0072693629394660324, 1926, 0.06363996827914353, 17491, 0.711421133978687, 4673, 0.19006751809973155, 1515, 0.061620434393557307, 96, 0.0039046611892947208, 811, 0.03298625233872936][0m
+2025-05-06 20:03:20,999 - src.common.logger - INFO - Starting simulation for year: 2003
+2025-05-06 20:03:20,999 - src.common.logger - INFO - Simulating year: 2003
+2025-05-06 20:03:21,002 - src.common.logger - INFO - Year 2003: Age population updated in 0.00 seconds
+2025-05-06 20:03:21,002 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-06 20:03:21,003 - src.common.logger - INFO - Random seed set to 123
+2025-05-06 20:03:21,003 - src.common.logger - INFO - Starting generation of new births for year 2003
+2025-05-06 20:03:21,003 - src.common.logger - INFO - Computing new births for year 2003
+2025-05-06 20:03:21,003 - src.common.logger - INFO - Computed 2822 new births for year 2003 with birth rate 0.013865
+2025-05-06 20:03:21,004 - src.common.logger - INFO - Calculated 2822 new births for year 2003 (Proportion: 1.39%)
+2025-05-06 20:03:21,004 - src.common.logger - INFO - Assigning genders for 2822 births in year 2003
+2025-05-06 20:03:21,005 - src.common.logger - INFO - Assigning races for 2822 births in year 2003
+2025-05-06 20:03:21,005 - src.common.logger - INFO - Gender distribution - Male: 1445, Female: 1377, Male Percentage: 51.20%
+2025-05-06 20:03:21,006 - src.common.logger - INFO - Assigning races to male population
+2025-05-06 20:03:21,006 - src.common.logger - INFO - Assigning races to female population
+2025-05-06 20:03:21,007 - src.common.logger - INFO - Successfully assigned races for 2822 births in year 2003
+2025-05-06 20:03:21,007 - src.common.logger - INFO - Successfully generated 2822 new births for year 2003
+2025-05-06 20:03:21,010 - src.common.logger - INFO - New births DataFrame created with shape: (2822, 6)
+2025-05-06 20:03:21,025 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-06 20:03:21,030 - src.common.logger - INFO - Year 2003: Births updated in 0.03 seconds
+2025-05-06 20:03:21,031 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-06 20:03:21,031 - src.common.logger - INFO - Generating immigration population for year 2003
+2025-05-06 20:03:21,032 - src.common.logger - INFO - Calculated 832 immigrants for year 2003 with immigration rate 0.004032
+2025-05-06 20:03:21,127 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-06 20:03:21,151 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (832, 6)
+2025-05-06 20:03:21,157 - src.common.logger - INFO - Year 2003: Immigration updated in 0.13 seconds
+2025-05-06 20:03:25,808 - src.common.logger - INFO - Drinking status updated successfully.
+2025-05-06 20:03:25,808 - src.common.logger - INFO - Year 2003: Drinking status updated in 4.65 seconds
+2025-05-06 20:03:25,817 - src.common.logger - INFO - Starting update_deaths method.
+2025-05-06 20:03:25,862 - src.common.logger - INFO - update_deaths method completed successfully.
+2025-05-06 20:03:25,878 - src.common.logger - INFO - Year 2003: Deaths updated in 0.07 seconds
+2025-05-06 20:03:25,878 - src.common.logger - INFO - Year 2003: Population count = 205332
+2025-05-06 20:03:25,879 - src.common.logger - INFO - Year 2003: Simulation completed in 4.88 seconds
+2025-05-06 20:03:25,884 - src.common.logger - INFO - Completed simulation for year: 2003
+2025-05-06 20:03:26,593 - src.common.logger - INFO - [91mYEAR 2003 SUMMARY: SIMULATED TOTAL POPULATION: 20533200, VALIDATED POPULATION: 290107933, VALIDATION STATUS: False, DETAILS: [2003, 205332, 51617, 153715, 0.491876570627082, 0.010967603685738219, 140805, 24733, 27051, 12743, 82253, 54937, 5176, 2184, 9165, 10007, 0.4091336522343514, 12392, 0.506643771208962, 382, 0.015617972934298213, 496, 0.020278833967046894, 1182, 0.04832576965534159, 11163, 0.3732820598562113, 14626, 0.48908209329543556, 948, 0.03170038455107842, 589, 0.019695703059689016, 2579, 0.08623975923758569, 10849, 0.5363888064867003, 7371, 0.36443191931177693, 607, 0.03001087708889548, 257, 0.012706417482448334, 1142, 0.05646197963017898, 14117, 0.6010814953589373, 7023, 0.2990292088904028, 454, 0.01933066507706719, 546, 0.023247892361406796, 1346, 0.057310738312185985, 18297, 0.6005514162864739, 8616, 0.2827977812058949, 1253, 0.041126464699510944, 211, 0.00692552597892802, 2090, 0.06859881182919224, 17820, 0.707929445415541, 4909, 0.19501827427300175, 1532, 0.06086127443190847, 85, 0.003376767837279517, 826, 0.03281423804226919][0m
+2025-05-06 20:03:26,596 - src.common.logger - INFO - Starting simulation for year: 2004
+2025-05-06 20:03:26,596 - src.common.logger - INFO - Simulating year: 2004
+2025-05-06 20:03:26,599 - src.common.logger - INFO - Year 2004: Age population updated in 0.00 seconds
+2025-05-06 20:03:26,599 - src.common.logger - INFO - Initializing BirthUpdater
+2025-05-06 20:03:26,600 - src.common.logger - INFO - Random seed set to 123
+2025-05-06 20:03:26,600 - src.common.logger - INFO - Starting generation of new births for year 2004
+2025-05-06 20:03:26,600 - src.common.logger - INFO - Computing new births for year 2004
+2025-05-06 20:03:26,601 - src.common.logger - INFO - Computed 2853 new births for year 2004 with birth rate 0.013893
+2025-05-06 20:03:26,601 - src.common.logger - INFO - Calculated 2853 new births for year 2004 (Proportion: 1.39%)
+2025-05-06 20:03:26,601 - src.common.logger - INFO - Assigning genders for 2853 births in year 2004
+2025-05-06 20:03:26,602 - src.common.logger - INFO - Assigning races for 2853 births in year 2004
+2025-05-06 20:03:26,603 - src.common.logger - INFO - Gender distribution - Male: 1461, Female: 1392, Male Percentage: 51.21%
+2025-05-06 20:03:26,603 - src.common.logger - INFO - Assigning races to male population
+2025-05-06 20:03:26,604 - src.common.logger - INFO - Assigning races to female population
+2025-05-06 20:03:26,605 - src.common.logger - INFO - Successfully assigned races for 2853 births in year 2004
+2025-05-06 20:03:26,605 - src.common.logger - INFO - Successfully generated 2853 new births for year 2004
+2025-05-06 20:03:26,608 - src.common.logger - INFO - New births DataFrame created with shape: (2853, 6)
+2025-05-06 20:03:26,623 - src.common.logger - INFO - Combined Sex, Race into a single column and removed the individual columns.
+2025-05-06 20:03:26,629 - src.common.logger - INFO - Year 2004: Births updated in 0.03 seconds
+2025-05-06 20:03:26,629 - src.common.logger - INFO - Initializing ImmigrationUpdater
+2025-05-06 20:03:26,630 - src.common.logger - INFO - Generating immigration population for year 2004
+2025-05-06 20:03:26,630 - src.common.logger - INFO - Calculated 778 immigrants for year 2004 with immigration rate 0.003739
+2025-05-06 20:03:26,725 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-06 20:03:26,745 - src.common.logger - INFO - Generated immigration population DataFrame with shape: (778, 6)
+2025-05-06 20:03:26,750 - src.common.logger - INFO - Year 2004: Immigration updated in 0.12 seconds

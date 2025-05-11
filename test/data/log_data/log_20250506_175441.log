@@ -1,0 +1,11 @@
+2025-05-06 17:54:41,335 - src.common.logger - INFO - Logger setup complete.
+2025-05-06 17:54:42,763 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 17:54:42,763 - src.common.logger - INFO - Starting simulation process...
+2025-05-06 17:54:42,763 - src.common.logger - INFO - Initializing simulation...
+2025-05-06 17:54:42,764 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-06 17:54:42,764 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-06 17:54:42,764 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 17:54:42,765 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 17:54:42,765 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 17:54:42,765 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-06 17:54:42,765 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx

@@ -1,0 +1,4 @@
+pandas
+line_profiler
+scipy
+matplotlib

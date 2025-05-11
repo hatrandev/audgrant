@@ -1,0 +1,20 @@
+2025-05-09 16:06:02,992 - src.common.logger - INFO - Logger setup complete.
+2025-05-09 16:06:02,995 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_222433.log
+2025-05-09 16:06:02,996 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_222452.log
+2025-05-09 16:06:02,997 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_222508.log
+2025-05-09 16:06:02,997 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_223357.log
+2025-05-09 16:06:02,998 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_223729.log
+2025-05-09 16:06:02,999 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_223954.log
+2025-05-09 16:06:03,000 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224007.log
+2025-05-09 16:06:03,001 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224104.log
+2025-05-09 16:06:03,001 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224131.log
+2025-05-09 16:06:03,002 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224339.log
+2025-05-09 16:06:03,003 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224410.log
+2025-05-09 16:06:03,004 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224731.log
+2025-05-09 16:06:03,005 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_224738.log
+2025-05-09 16:06:03,006 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250501_231325.log
+2025-05-09 16:06:03,007 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250502_014101.log
+2025-05-09 16:06:03,008 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250502_014814.log
+2025-05-09 16:06:03,009 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250502_014859.log
+2025-05-09 16:06:03,009 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250502_015755.log
+2025-05-09 16:06:03,010 - src.common.logger - INFO - Deleted old log file: test/data/log_data\log_20250502_015849.log

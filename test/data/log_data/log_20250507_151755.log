@@ -1,0 +1,120 @@
+2025-05-07 15:17:55,689 - src.common.logger - INFO - Logger setup complete.
+2025-05-07 15:17:57,122 - src.common.logger - INFO - Initialized LookupTablesGenerator with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,123 - src.common.logger - INFO - Starting simulation process...
+2025-05-07 15:17:57,123 - src.common.logger - INFO - Initializing simulation...
+2025-05-07 15:17:57,123 - src.common.logger - INFO - Starting to create lookup tables.
+2025-05-07 15:17:57,123 - src.common.logger - INFO - Initializing all lookup generators.
+2025-05-07 15:17:57,124 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,124 - src.common.logger - INFO - BirthLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,124 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,124 - src.common.logger - INFO - ImmigrationLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,124 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,125 - src.common.logger - INFO - DrinkingStatusLookupGenerator initialized with base_path: test/data/input_data, excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,125 - src.common.logger - INFO - Initializing InitialPopulationLookupGenerator
+2025-05-07 15:17:57,125 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:57,125 - src.common.logger - INFO - Generating birth lookup tables.
+2025-05-07 15:17:57,125 - src.common.logger - INFO - Reading data from sheet: Birth
+2025-05-07 15:17:57,125 - src.common.logger - INFO - Attempting to read sheet 'Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:57,643 - src.common.logger - INFO - Successfully read sheet 'Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:57,650 - src.common.logger - INFO - Lookup table generation for Birth_Rate completed.
+2025-05-07 15:17:57,650 - src.common.logger - INFO - Reading data from sheet: Sex_Ratio_At_Birth
+2025-05-07 15:17:57,650 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_At_Birth' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:57,693 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_At_Birth' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:57,698 - src.common.logger - INFO - Lookup table generation for Male_Ratio completed.
+2025-05-07 15:17:57,698 - src.common.logger - INFO - Processing race data for 'Under 5 years' from sheet: Race_Sex_Age
+2025-05-07 15:17:57,698 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:58,023 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:58,068 - src.common.logger - INFO - Processed race data for 'Under 5 years': 50 years found.
+2025-05-07 15:17:58,069 - src.common.logger - INFO - Successfully generated birth lookup tables.
+2025-05-07 15:17:58,069 - src.common.logger - INFO - Generating death lookup tables.
+2025-05-07 15:17:58,069 - src.common.logger - INFO - ExcelDataReader initialized with base_path: test/data/input_data and excel_file_name: Data_AUD_Grant_Input_472025.xlsx
+2025-05-07 15:17:58,070 - src.common.logger - INFO - Attempting to read sheet 'Death_Rate_Data' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:17:59,085 - src.common.logger - INFO - Successfully read sheet 'Death_Rate_Data' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:02,084 - src.common.logger - INFO - Lookup table for Rate loaded successfully as DataFrame.
+2025-05-07 15:18:02,114 - src.common.logger - INFO - Successfully generated death lookup tables.
+2025-05-07 15:18:02,114 - src.common.logger - INFO - Generating immigration lookup tables.
+2025-05-07 15:18:02,114 - src.common.logger - INFO - Starting generation of all lookups.
+2025-05-07 15:18:02,115 - src.common.logger - INFO - Generating age lookup from sheet: Age_Ratio_All_Years
+2025-05-07 15:18:02,115 - src.common.logger - INFO - Generating lookup for sheet: Age_Ratio_All_Years, ratio_column: Age_Ratio, key_column: Age
+2025-05-07 15:18:02,115 - src.common.logger - INFO - Attempting to read sheet 'Age_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:02,238 - src.common.logger - INFO - Successfully read sheet 'Age_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:02,506 - src.common.logger - INFO - Lookup generated for sheet: Age_Ratio_All_Years
+2025-05-07 15:18:02,506 - src.common.logger - INFO - Age lookup generation completed.
+2025-05-07 15:18:02,507 - src.common.logger - INFO - Generating sex lookup from sheet: Sex_Ratio_All_Years
+2025-05-07 15:18:02,507 - src.common.logger - INFO - Generating lookup for sheet: Sex_Ratio_All_Years, ratio_column: Male_Ratio, key_column: Age
+2025-05-07 15:18:02,507 - src.common.logger - INFO - Attempting to read sheet 'Sex_Ratio_All_Years' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:02,649 - src.common.logger - INFO - Successfully read sheet 'Sex_Ratio_All_Years' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:02,910 - src.common.logger - INFO - Lookup generated for sheet: Sex_Ratio_All_Years
+2025-05-07 15:18:02,910 - src.common.logger - INFO - Sex lookup generation completed.
+2025-05-07 15:18:02,910 - src.common.logger - INFO - Generating race lookup from sheet: Race_Sex_Age
+2025-05-07 15:18:02,911 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:03,203 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:03,704 - src.common.logger - INFO - Race lookup generation completed.
+2025-05-07 15:18:03,705 - src.common.logger - INFO - Generating immigration rate lookup from sheet: Immigration
+2025-05-07 15:18:03,706 - src.common.logger - INFO - Attempting to read sheet 'Immigration' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:03,750 - src.common.logger - INFO - Successfully read sheet 'Immigration' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:03,753 - src.common.logger - INFO - Immigration rate lookup generation completed.
+2025-05-07 15:18:03,754 - src.common.logger - INFO - Lookup validation passed.
+2025-05-07 15:18:03,755 - src.common.logger - INFO - Lookup validation passed.
+2025-05-07 15:18:03,757 - src.common.logger - INFO - Lookup validation passed.
+2025-05-07 15:18:03,757 - src.common.logger - INFO - Successfully generated immigration lookup tables.
+2025-05-07 15:18:03,757 - src.common.logger - INFO - Generating drinking_transition lookup tables.
+2025-05-07 15:18:03,757 - src.common.logger - INFO - Reading data from sheet: Drinking_TransitionProbability
+2025-05-07 15:18:03,758 - src.common.logger - INFO - Attempting to read sheet 'Drinking_TransitionProbability' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:03,871 - src.common.logger - INFO - Successfully read sheet 'Drinking_TransitionProbability' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,181 - src.common.logger - INFO - Successfully generated drinking_transition lookup tables.
+2025-05-07 15:18:04,182 - src.common.logger - INFO - Generating initial_population lookup tables.
+2025-05-07 15:18:04,182 - src.common.logger - INFO - Generating initial population lookup tables.
+2025-05-07 15:18:04,183 - src.common.logger - INFO - Processing race data from sheet: Race_Sex_Age
+2025-05-07 15:18:04,183 - src.common.logger - INFO - Attempting to read sheet 'Race_Sex_Age' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,457 - src.common.logger - INFO - Successfully read sheet 'Race_Sex_Age' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,467 - src.common.logger - INFO - Processed race data: 36 unique age-sex groups found.
+2025-05-07 15:18:04,468 - src.common.logger - INFO - Processing age data from sheet: Initial_Population
+2025-05-07 15:18:04,468 - src.common.logger - INFO - Attempting to read sheet 'Initial_Population' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,513 - src.common.logger - INFO - Successfully read sheet 'Initial_Population' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,521 - src.common.logger - INFO - Processed age data: 101 unique age groups found.
+2025-05-07 15:18:04,521 - src.common.logger - INFO - Processing sex data from sheet: Sex_Average
+2025-05-07 15:18:04,521 - src.common.logger - INFO - Attempting to read sheet 'Sex_Average' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,569 - src.common.logger - INFO - Successfully read sheet 'Sex_Average' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,575 - src.common.logger - INFO - Processed sex data: 101 unique age groups found.
+2025-05-07 15:18:04,576 - src.common.logger - INFO - Processing drinking data from sheet: Drinking_Prevalence
+2025-05-07 15:18:04,576 - src.common.logger - INFO - Attempting to read sheet 'Drinking_Prevalence' from file 'test/data/input_data\Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,621 - src.common.logger - INFO - Successfully read sheet 'Drinking_Prevalence' from file 'Data_AUD_Grant_Input_472025.xlsx'
+2025-05-07 15:18:04,639 - src.common.logger - INFO - Processed drinking data: 32 unique groups found.
+2025-05-07 15:18:04,639 - src.common.logger - INFO - Initial population lookup tables generated successfully.
+2025-05-07 15:18:04,640 - src.common.logger - INFO - Successfully generated initial_population lookup tables.
+2025-05-07 15:18:04,640 - src.common.logger - INFO - Lookup tables generated successfully.
+2025-05-07 15:18:04,640 - src.common.logger - INFO - Lookup tables generation took 7.52 seconds.
+2025-05-07 15:18:04,640 - src.common.logger - INFO - Initializing Population Initializer...
+2025-05-07 15:18:04,641 - src.common.logger - INFO - Generating initial population...
+2025-05-07 15:18:04,641 - src.common.logger - INFO - Population generation started with total population: 200000
+2025-05-07 15:18:04,762 - src.common.logger - INFO - Assigned unique ID to each individual in the population.
+2025-05-07 15:18:04,781 - src.common.logger - INFO - Age: 0, Count: 2721, Proportion: 1.36%
+2025-05-07 15:18:04,781 - src.common.logger - INFO - Age: 1, Count: 2708, Proportion: 1.35%
+2025-05-07 15:18:04,781 - src.common.logger - INFO - Age: 2, Count: 2695, Proportion: 1.35%
+2025-05-07 15:18:14,389 - src.common.logger - INFO - Age: 0.0, Total: 2721, Male Count: 1401, Male Ratio: 51.49%
+2025-05-07 15:18:14,389 - src.common.logger - INFO - Age: 1.0, Total: 2708, Male Count: 1338, Male Ratio: 49.41%
+2025-05-07 15:18:14,389 - src.common.logger - INFO - Age: 2.0, Total: 2695, Male Count: 1373, Male Ratio: 50.95%
+2025-05-07 15:18:14,390 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Female, Total: 7121
+2025-05-07 15:18:14,390 - src.common.logger - INFO -   Race: Hispanic, Count: 1094, Proportion: 15.36%
+2025-05-07 15:18:14,390 - src.common.logger - INFO -   Race: White, Count: 4510, Proportion: 63.33%
+2025-05-07 15:18:14,391 - src.common.logger - INFO -   Race: Other, Count: 481, Proportion: 6.75%
+2025-05-07 15:18:14,391 - src.common.logger - INFO -   Race: Black, Count: 1036, Proportion: 14.55%
+2025-05-07 15:18:14,391 - src.common.logger - INFO - Age Group: 10 to 14 years, Gender: Male, Total: 7487
+2025-05-07 15:18:14,392 - src.common.logger - INFO -   Race: Hispanic, Count: 1206, Proportion: 16.11%
+2025-05-07 15:18:14,392 - src.common.logger - INFO -   Race: White, Count: 4703, Proportion: 62.82%
+2025-05-07 15:18:14,392 - src.common.logger - INFO -   Race: Black, Count: 1063, Proportion: 14.20%
+2025-05-07 15:18:14,393 - src.common.logger - INFO -   Race: Other, Count: 515, Proportion: 6.88%
+2025-05-07 15:18:14,393 - src.common.logger - INFO - Age Group: 15 to 19 years, Gender: Female, Total: 6931
+2025-05-07 15:18:14,393 - src.common.logger - INFO -   Race: White, Count: 4379, Proportion: 63.18%
+2025-05-07 15:18:14,393 - src.common.logger - INFO -   Race: Black, Count: 982, Proportion: 14.17%
+2025-05-07 15:18:14,393 - src.common.logger - INFO -   Race: Hispanic, Count: 1088, Proportion: 15.70%
+2025-05-07 15:18:14,394 - src.common.logger - INFO -   Race: Other, Count: 482, Proportion: 6.95%
+2025-05-07 15:18:14,394 - src.common.logger - INFO - Population generation complete. Total Population Generated: 200000, Configured Initial Population: 200000, Time Taken: 9.75 seconds
+2025-05-07 15:18:14,587 - src.common.logger - INFO - Population DataFrame created with shape: (200000, 7)
+2025-05-07 15:18:14,635 - src.common.logger - INFO - Combined Sex, Race, and Immigration into a single column and removed the individual columns.
+2025-05-07 15:18:14,817 - src.common.logger - INFO - Merged population DataFrame with drinking distribution DataFrame on Age_Group_Key and Composite.
+2025-05-07 15:18:20,167 - src.common.logger - INFO - Mapped Age to Age_Group and added Age_Group column to the DataFrame.
+2025-05-07 15:18:20,167 - src.common.logger - INFO - Population initialization took 15.53 seconds.
+2025-05-07 15:18:20,167 - src.common.logger - INFO - Simulation initialization complete.
+2025-05-07 15:18:20,168 - src.common.logger - INFO - Starting simulation process.
