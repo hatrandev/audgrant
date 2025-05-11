@@ -1,0 +1,721 @@
+,Race,Sex,Age_Group,Year,Alcohol_Stage,Rate
+0,Black,Female,10 to 14 years,2000,Abstinence,0.0
+1,Black,Female,10 to 14 years,2000,Low-risk,0.0
+2,Black,Female,10 to 14 years,2000,Medium-risk,0.0
+3,Black,Female,10 to 14 years,2000,High-risk,0.0
+4,Black,Female,10 to 14 years,2000,Very High-risk,0.0
+5,Hispanic,Female,10 to 14 years,2000,Abstinence,0.0
+6,Hispanic,Female,10 to 14 years,2000,Low-risk,0.0
+7,Hispanic,Female,10 to 14 years,2000,Medium-risk,0.0
+8,Hispanic,Female,10 to 14 years,2000,High-risk,0.0
+9,Hispanic,Female,10 to 14 years,2000,Very High-risk,0.0
+10,Other,Female,10 to 14 years,2000,Abstinence,0.0
+11,Other,Female,10 to 14 years,2000,Low-risk,0.0
+12,Other,Female,10 to 14 years,2000,Medium-risk,0.0
+13,Other,Female,10 to 14 years,2000,High-risk,0.0
+14,Other,Female,10 to 14 years,2000,Very High-risk,0.0
+15,White,Female,10 to 14 years,2000,Abstinence,0.0
+16,White,Female,10 to 14 years,2000,Low-risk,0.0
+17,White,Female,10 to 14 years,2000,Medium-risk,0.0
+18,White,Female,10 to 14 years,2000,High-risk,0.0
+19,White,Female,10 to 14 years,2000,Very High-risk,0.0
+20,Black,Male,10 to 14 years,2000,Abstinence,0.0
+21,Black,Male,10 to 14 years,2000,Low-risk,0.0
+22,Black,Male,10 to 14 years,2000,Medium-risk,0.0
+23,Black,Male,10 to 14 years,2000,High-risk,0.0
+24,Black,Male,10 to 14 years,2000,Very High-risk,0.0
+25,Hispanic,Male,10 to 14 years,2000,Abstinence,0.0
+26,Hispanic,Male,10 to 14 years,2000,Low-risk,0.0
+27,Hispanic,Male,10 to 14 years,2000,Medium-risk,0.0
+28,Hispanic,Male,10 to 14 years,2000,High-risk,0.0
+29,Hispanic,Male,10 to 14 years,2000,Very High-risk,0.0
+30,Other,Male,10 to 14 years,2000,Abstinence,0.0
+31,Other,Male,10 to 14 years,2000,Low-risk,0.0
+32,Other,Male,10 to 14 years,2000,Medium-risk,0.0
+33,Other,Male,10 to 14 years,2000,High-risk,0.0
+34,Other,Male,10 to 14 years,2000,Very High-risk,0.0
+35,White,Male,10 to 14 years,2000,Abstinence,0.0
+36,White,Male,10 to 14 years,2000,Low-risk,0.0
+37,White,Male,10 to 14 years,2000,Medium-risk,0.0
+38,White,Male,10 to 14 years,2000,High-risk,0.0
+39,White,Male,10 to 14 years,2000,Very High-risk,0.0
+40,Black,Female,15 to 19 years,2000,Abstinence,0.85
+41,Black,Female,15 to 19 years,2000,Low-risk,0.1
+42,Black,Female,15 to 19 years,2000,Medium-risk,0.03
+43,Black,Female,15 to 19 years,2000,High-risk,0.015
+44,Black,Female,15 to 19 years,2000,Very High-risk,0.005
+45,Hispanic,Female,15 to 19 years,2000,Abstinence,0.83
+46,Hispanic,Female,15 to 19 years,2000,Low-risk,0.12
+47,Hispanic,Female,15 to 19 years,2000,Medium-risk,0.03
+48,Hispanic,Female,15 to 19 years,2000,High-risk,0.01
+49,Hispanic,Female,15 to 19 years,2000,Very High-risk,0.01
+50,Other,Female,15 to 19 years,2000,Abstinence,0.82
+51,Other,Female,15 to 19 years,2000,Low-risk,0.12
+52,Other,Female,15 to 19 years,2000,Medium-risk,0.03
+53,Other,Female,15 to 19 years,2000,High-risk,0.02
+54,Other,Female,15 to 19 years,2000,Very High-risk,0.01
+55,White,Female,15 to 19 years,2000,Abstinence,0.8
+56,White,Female,15 to 19 years,2000,Low-risk,0.13
+57,White,Female,15 to 19 years,2000,Medium-risk,0.04
+58,White,Female,15 to 19 years,2000,High-risk,0.02
+59,White,Female,15 to 19 years,2000,Very High-risk,0.01
+60,Black,Male,15 to 19 years,2000,Abstinence,0.84
+61,Black,Male,15 to 19 years,2000,Low-risk,0.11
+62,Black,Male,15 to 19 years,2000,Medium-risk,0.03
+63,Black,Male,15 to 19 years,2000,High-risk,0.015
+64,Black,Male,15 to 19 years,2000,Very High-risk,0.005
+65,Hispanic,Male,15 to 19 years,2000,Abstinence,0.82
+66,Hispanic,Male,15 to 19 years,2000,Low-risk,0.12
+67,Hispanic,Male,15 to 19 years,2000,Medium-risk,0.03
+68,Hispanic,Male,15 to 19 years,2000,High-risk,0.02
+69,Hispanic,Male,15 to 19 years,2000,Very High-risk,0.01
+70,Other,Male,15 to 19 years,2000,Abstinence,0.8
+71,Other,Male,15 to 19 years,2000,Low-risk,0.13
+72,Other,Male,15 to 19 years,2000,Medium-risk,0.04
+73,Other,Male,15 to 19 years,2000,High-risk,0.02
+74,Other,Male,15 to 19 years,2000,Very High-risk,0.01
+75,White,Male,15 to 19 years,2000,Abstinence,0.78
+76,White,Male,15 to 19 years,2000,Low-risk,0.14
+77,White,Male,15 to 19 years,2000,Medium-risk,0.04
+78,White,Male,15 to 19 years,2000,High-risk,0.03
+79,White,Male,15 to 19 years,2000,Very High-risk,0.01
+80,Black,Female,20 to 24 years,2000,Abstinence,0.75
+81,Black,Female,20 to 24 years,2000,Low-risk,0.15
+82,Black,Female,20 to 24 years,2000,Medium-risk,0.05
+83,Black,Female,20 to 24 years,2000,High-risk,0.03
+84,Black,Female,20 to 24 years,2000,Very High-risk,0.02
+85,Hispanic,Female,20 to 24 years,2000,Abstinence,0.72
+86,Hispanic,Female,20 to 24 years,2000,Low-risk,0.17
+87,Hispanic,Female,20 to 24 years,2000,Medium-risk,0.06
+88,Hispanic,Female,20 to 24 years,2000,High-risk,0.03
+89,Hispanic,Female,20 to 24 years,2000,Very High-risk,0.02
+90,Other,Female,20 to 24 years,2000,Abstinence,0.7
+91,Other,Female,20 to 24 years,2000,Low-risk,0.17
+92,Other,Female,20 to 24 years,2000,Medium-risk,0.06
+93,Other,Female,20 to 24 years,2000,High-risk,0.05
+94,Other,Female,20 to 24 years,2000,Very High-risk,0.02
+95,White,Female,20 to 24 years,2000,Abstinence,0.68
+96,White,Female,20 to 24 years,2000,Low-risk,0.18
+97,White,Female,20 to 24 years,2000,Medium-risk,0.07
+98,White,Female,20 to 24 years,2000,High-risk,0.05
+99,White,Female,20 to 24 years,2000,Very High-risk,0.02
+100,Black,Male,20 to 24 years,2000,Abstinence,0.73
+101,Black,Male,20 to 24 years,2000,Low-risk,0.16
+102,Black,Male,20 to 24 years,2000,Medium-risk,0.06
+103,Black,Male,20 to 24 years,2000,High-risk,0.03
+104,Black,Male,20 to 24 years,2000,Very High-risk,0.02
+105,Hispanic,Male,20 to 24 years,2000,Abstinence,0.7
+106,Hispanic,Male,20 to 24 years,2000,Low-risk,0.18
+107,Hispanic,Male,20 to 24 years,2000,Medium-risk,0.06
+108,Hispanic,Male,20 to 24 years,2000,High-risk,0.04
+109,Hispanic,Male,20 to 24 years,2000,Very High-risk,0.02
+110,Other,Male,20 to 24 years,2000,Abstinence,0.68
+111,Other,Male,20 to 24 years,2000,Low-risk,0.18
+112,Other,Male,20 to 24 years,2000,Medium-risk,0.07
+113,Other,Male,20 to 24 years,2000,High-risk,0.05
+114,Other,Male,20 to 24 years,2000,Very High-risk,0.02
+115,White,Male,20 to 24 years,2000,Abstinence,0.65
+116,White,Male,20 to 24 years,2000,Low-risk,0.2
+117,White,Male,20 to 24 years,2000,Medium-risk,0.08
+118,White,Male,20 to 24 years,2000,High-risk,0.05
+119,White,Male,20 to 24 years,2000,Very High-risk,0.02
+120,Black,Female,25 to 29 years,2000,Abstinence,0.7
+121,Black,Female,25 to 29 years,2000,Low-risk,0.17
+122,Black,Female,25 to 29 years,2000,Medium-risk,0.07
+123,Black,Female,25 to 29 years,2000,High-risk,0.04
+124,Black,Female,25 to 29 years,2000,Very High-risk,0.02
+125,Hispanic,Female,25 to 29 years,2000,Abstinence,0.68
+126,Hispanic,Female,25 to 29 years,2000,Low-risk,0.18
+127,Hispanic,Female,25 to 29 years,2000,Medium-risk,0.08
+128,Hispanic,Female,25 to 29 years,2000,High-risk,0.04
+129,Hispanic,Female,25 to 29 years,2000,Very High-risk,0.02
+130,Other,Female,25 to 29 years,2000,Abstinence,0.67
+131,Other,Female,25 to 29 years,2000,Low-risk,0.19
+132,Other,Female,25 to 29 years,2000,Medium-risk,0.08
+133,Other,Female,25 to 29 years,2000,High-risk,0.04
+134,Other,Female,25 to 29 years,2000,Very High-risk,0.02
+135,White,Female,25 to 29 years,2000,Abstinence,0.65
+136,White,Female,25 to 29 years,2000,Low-risk,0.2
+137,White,Female,25 to 29 years,2000,Medium-risk,0.08
+138,White,Female,25 to 29 years,2000,High-risk,0.05
+139,White,Female,25 to 29 years,2000,Very High-risk,0.02
+140,Black,Male,25 to 29 years,2000,Abstinence,0.68
+141,Black,Male,25 to 29 years,2000,Low-risk,0.18
+142,Black,Male,25 to 29 years,2000,Medium-risk,0.08
+143,Black,Male,25 to 29 years,2000,High-risk,0.04
+144,Black,Male,25 to 29 years,2000,Very High-risk,0.02
+145,Hispanic,Male,25 to 29 years,2000,Abstinence,0.65
+146,Hispanic,Male,25 to 29 years,2000,Low-risk,0.2
+147,Hispanic,Male,25 to 29 years,2000,Medium-risk,0.08
+148,Hispanic,Male,25 to 29 years,2000,High-risk,0.05
+149,Hispanic,Male,25 to 29 years,2000,Very High-risk,0.02
+150,Other,Male,25 to 29 years,2000,Abstinence,0.63
+151,Other,Male,25 to 29 years,2000,Low-risk,0.2
+152,Other,Male,25 to 29 years,2000,Medium-risk,0.09
+153,Other,Male,25 to 29 years,2000,High-risk,0.06
+154,Other,Male,25 to 29 years,2000,Very High-risk,0.02
+155,White,Male,25 to 29 years,2000,Abstinence,0.6
+156,White,Male,25 to 29 years,2000,Low-risk,0.22
+157,White,Male,25 to 29 years,2000,Medium-risk,0.1
+158,White,Male,25 to 29 years,2000,High-risk,0.06
+159,White,Male,25 to 29 years,2000,Very High-risk,0.02
+160,Black,Female,30 to 34 years,2000,Abstinence,0.72
+161,Black,Female,30 to 34 years,2000,Low-risk,0.16
+162,Black,Female,30 to 34 years,2000,Medium-risk,0.07
+163,Black,Female,30 to 34 years,2000,High-risk,0.03
+164,Black,Female,30 to 34 years,2000,Very High-risk,0.02
+165,Hispanic,Female,30 to 34 years,2000,Abstinence,0.7
+166,Hispanic,Female,30 to 34 years,2000,Low-risk,0.17
+167,Hispanic,Female,30 to 34 years,2000,Medium-risk,0.07
+168,Hispanic,Female,30 to 34 years,2000,High-risk,0.04
+169,Hispanic,Female,30 to 34 years,2000,Very High-risk,0.02
+170,Other,Female,30 to 34 years,2000,Abstinence,0.69
+171,Other,Female,30 to 34 years,2000,Low-risk,0.17
+172,Other,Female,30 to 34 years,2000,Medium-risk,0.08
+173,Other,Female,30 to 34 years,2000,High-risk,0.04
+174,Other,Female,30 to 34 years,2000,Very High-risk,0.02
+175,White,Female,30 to 34 years,2000,Abstinence,0.68
+176,White,Female,30 to 34 years,2000,Low-risk,0.18
+177,White,Female,30 to 34 years,2000,Medium-risk,0.08
+178,White,Female,30 to 34 years,2000,High-risk,0.04
+179,White,Female,30 to 34 years,2000,Very High-risk,0.02
+180,Black,Male,30 to 34 years,2000,Abstinence,0.7
+181,Black,Male,30 to 34 years,2000,Low-risk,0.17
+182,Black,Male,30 to 34 years,2000,Medium-risk,0.07
+183,Black,Male,30 to 34 years,2000,High-risk,0.04
+184,Black,Male,30 to 34 years,2000,Very High-risk,0.02
+185,Hispanic,Male,30 to 34 years,2000,Abstinence,0.68
+186,Hispanic,Male,30 to 34 years,2000,Low-risk,0.18
+187,Hispanic,Male,30 to 34 years,2000,Medium-risk,0.08
+188,Hispanic,Male,30 to 34 years,2000,High-risk,0.04
+189,Hispanic,Male,30 to 34 years,2000,Very High-risk,0.02
+190,Other,Male,30 to 34 years,2000,Abstinence,0.67
+191,Other,Male,30 to 34 years,2000,Low-risk,0.19
+192,Other,Male,30 to 34 years,2000,Medium-risk,0.08
+193,Other,Male,30 to 34 years,2000,High-risk,0.04
+194,Other,Male,30 to 34 years,2000,Very High-risk,0.02
+195,White,Male,30 to 34 years,2000,Abstinence,0.65
+196,White,Male,30 to 34 years,2000,Low-risk,0.2
+197,White,Male,30 to 34 years,2000,Medium-risk,0.08
+198,White,Male,30 to 34 years,2000,High-risk,0.05
+199,White,Male,30 to 34 years,2000,Very High-risk,0.02
+200,Black,Female,35 to 39 years,2000,Abstinence,0.74
+201,Black,Female,35 to 39 years,2000,Low-risk,0.16
+202,Black,Female,35 to 39 years,2000,Medium-risk,0.06
+203,Black,Female,35 to 39 years,2000,High-risk,0.03
+204,Black,Female,35 to 39 years,2000,Very High-risk,0.01
+205,Hispanic,Female,35 to 39 years,2000,Abstinence,0.72
+206,Hispanic,Female,35 to 39 years,2000,Low-risk,0.18
+207,Hispanic,Female,35 to 39 years,2000,Medium-risk,0.06
+208,Hispanic,Female,35 to 39 years,2000,High-risk,0.03
+209,Hispanic,Female,35 to 39 years,2000,Very High-risk,0.01
+210,Other,Female,35 to 39 years,2000,Abstinence,0.71
+211,Other,Female,35 to 39 years,2000,Low-risk,0.18
+212,Other,Female,35 to 39 years,2000,Medium-risk,0.07
+213,Other,Female,35 to 39 years,2000,High-risk,0.03
+214,Other,Female,35 to 39 years,2000,Very High-risk,0.01
+215,White,Female,35 to 39 years,2000,Abstinence,0.7
+216,White,Female,35 to 39 years,2000,Low-risk,0.19
+217,White,Female,35 to 39 years,2000,Medium-risk,0.07
+218,White,Female,35 to 39 years,2000,High-risk,0.03
+219,White,Female,35 to 39 years,2000,Very High-risk,0.01
+220,Black,Male,35 to 39 years,2000,Abstinence,0.72
+221,Black,Male,35 to 39 years,2000,Low-risk,0.17
+222,Black,Male,35 to 39 years,2000,Medium-risk,0.07
+223,Black,Male,35 to 39 years,2000,High-risk,0.03
+224,Black,Male,35 to 39 years,2000,Very High-risk,0.01
+225,Hispanic,Male,35 to 39 years,2000,Abstinence,0.7
+226,Hispanic,Male,35 to 39 years,2000,Low-risk,0.18
+227,Hispanic,Male,35 to 39 years,2000,Medium-risk,0.07
+228,Hispanic,Male,35 to 39 years,2000,High-risk,0.04
+229,Hispanic,Male,35 to 39 years,2000,Very High-risk,0.01
+230,Other,Male,35 to 39 years,2000,Abstinence,0.7
+231,Other,Male,35 to 39 years,2000,Low-risk,0.18
+232,Other,Male,35 to 39 years,2000,Medium-risk,0.08
+233,Other,Male,35 to 39 years,2000,High-risk,0.03
+234,Other,Male,35 to 39 years,2000,Very High-risk,0.01
+235,White,Male,35 to 39 years,2000,Abstinence,0.68
+236,White,Male,35 to 39 years,2000,Low-risk,0.2
+237,White,Male,35 to 39 years,2000,Medium-risk,0.07
+238,White,Male,35 to 39 years,2000,High-risk,0.04
+239,White,Male,35 to 39 years,2000,Very High-risk,0.01
+240,Black,Female,40 to 44 years,2000,Abstinence,0.76
+241,Black,Female,40 to 44 years,2000,Low-risk,0.15
+242,Black,Female,40 to 44 years,2000,Medium-risk,0.06
+243,Black,Female,40 to 44 years,2000,High-risk,0.02
+244,Black,Female,40 to 44 years,2000,Very High-risk,0.01
+245,Hispanic,Female,40 to 44 years,2000,Abstinence,0.74
+246,Hispanic,Female,40 to 44 years,2000,Low-risk,0.16
+247,Hispanic,Female,40 to 44 years,2000,Medium-risk,0.07
+248,Hispanic,Female,40 to 44 years,2000,High-risk,0.02
+249,Hispanic,Female,40 to 44 years,2000,Very High-risk,0.01
+250,Other,Female,40 to 44 years,2000,Abstinence,0.73
+251,Other,Female,40 to 44 years,2000,Low-risk,0.16
+252,Other,Female,40 to 44 years,2000,Medium-risk,0.07
+253,Other,Female,40 to 44 years,2000,High-risk,0.03
+254,Other,Female,40 to 44 years,2000,Very High-risk,0.01
+255,White,Female,40 to 44 years,2000,Abstinence,0.72
+256,White,Female,40 to 44 years,2000,Low-risk,0.17
+257,White,Female,40 to 44 years,2000,Medium-risk,0.07
+258,White,Female,40 to 44 years,2000,High-risk,0.03
+259,White,Female,40 to 44 years,2000,Very High-risk,0.01
+260,Black,Male,40 to 44 years,2000,Abstinence,0.74
+261,Black,Male,40 to 44 years,2000,Low-risk,0.16
+262,Black,Male,40 to 44 years,2000,Medium-risk,0.07
+263,Black,Male,40 to 44 years,2000,High-risk,0.02
+264,Black,Male,40 to 44 years,2000,Very High-risk,0.01
+265,Hispanic,Male,40 to 44 years,2000,Abstinence,0.72
+266,Hispanic,Male,40 to 44 years,2000,Low-risk,0.17
+267,Hispanic,Male,40 to 44 years,2000,Medium-risk,0.07
+268,Hispanic,Male,40 to 44 years,2000,High-risk,0.03
+269,Hispanic,Male,40 to 44 years,2000,Very High-risk,0.01
+270,Other,Male,40 to 44 years,2000,Abstinence,0.71
+271,Other,Male,40 to 44 years,2000,Low-risk,0.18
+272,Other,Male,40 to 44 years,2000,Medium-risk,0.07
+273,Other,Male,40 to 44 years,2000,High-risk,0.03
+274,Other,Male,40 to 44 years,2000,Very High-risk,0.01
+275,White,Male,40 to 44 years,2000,Abstinence,0.7
+276,White,Male,40 to 44 years,2000,Low-risk,0.19
+277,White,Male,40 to 44 years,2000,Medium-risk,0.07
+278,White,Male,40 to 44 years,2000,High-risk,0.03
+279,White,Male,40 to 44 years,2000,Very High-risk,0.01
+280,Black,Female,45 to 49 years,2000,Abstinence,0.78
+281,Black,Female,45 to 49 years,2000,Low-risk,0.14
+282,Black,Female,45 to 49 years,2000,Medium-risk,0.05
+283,Black,Female,45 to 49 years,2000,High-risk,0.02
+284,Black,Female,45 to 49 years,2000,Very High-risk,0.01
+285,Hispanic,Female,45 to 49 years,2000,Abstinence,0.76
+286,Hispanic,Female,45 to 49 years,2000,Low-risk,0.15
+287,Hispanic,Female,45 to 49 years,2000,Medium-risk,0.06
+288,Hispanic,Female,45 to 49 years,2000,High-risk,0.02
+289,Hispanic,Female,45 to 49 years,2000,Very High-risk,0.01
+290,Other,Female,45 to 49 years,2000,Abstinence,0.75
+291,Other,Female,45 to 49 years,2000,Low-risk,0.16
+292,Other,Female,45 to 49 years,2000,Medium-risk,0.06
+293,Other,Female,45 to 49 years,2000,High-risk,0.02
+294,Other,Female,45 to 49 years,2000,Very High-risk,0.01
+295,White,Female,45 to 49 years,2000,Abstinence,0.74
+296,White,Female,45 to 49 years,2000,Low-risk,0.17
+297,White,Female,45 to 49 years,2000,Medium-risk,0.06
+298,White,Female,45 to 49 years,2000,High-risk,0.02
+299,White,Female,45 to 49 years,2000,Very High-risk,0.01
+300,Black,Male,45 to 49 years,2000,Abstinence,0.76
+301,Black,Male,45 to 49 years,2000,Low-risk,0.15
+302,Black,Male,45 to 49 years,2000,Medium-risk,0.06
+303,Black,Male,45 to 49 years,2000,High-risk,0.02
+304,Black,Male,45 to 49 years,2000,Very High-risk,0.01
+305,Hispanic,Male,45 to 49 years,2000,Abstinence,0.74
+306,Hispanic,Male,45 to 49 years,2000,Low-risk,0.16
+307,Hispanic,Male,45 to 49 years,2000,Medium-risk,0.06
+308,Hispanic,Male,45 to 49 years,2000,High-risk,0.03
+309,Hispanic,Male,45 to 49 years,2000,Very High-risk,0.01
+310,Other,Male,45 to 49 years,2000,Abstinence,0.73
+311,Other,Male,45 to 49 years,2000,Low-risk,0.17
+312,Other,Male,45 to 49 years,2000,Medium-risk,0.06
+313,Other,Male,45 to 49 years,2000,High-risk,0.03
+314,Other,Male,45 to 49 years,2000,Very High-risk,0.01
+315,White,Male,45 to 49 years,2000,Abstinence,0.72
+316,White,Male,45 to 49 years,2000,Low-risk,0.18
+317,White,Male,45 to 49 years,2000,Medium-risk,0.06
+318,White,Male,45 to 49 years,2000,High-risk,0.03
+319,White,Male,45 to 49 years,2000,Very High-risk,0.01
+320,Black,Female,5 to 9 years,2000,Abstinence,0.0
+321,Black,Female,5 to 9 years,2000,Low-risk,0.0
+322,Black,Female,5 to 9 years,2000,Medium-risk,0.0
+323,Black,Female,5 to 9 years,2000,High-risk,0.0
+324,Black,Female,5 to 9 years,2000,Very High-risk,0.0
+325,Hispanic,Female,5 to 9 years,2000,Abstinence,0.0
+326,Hispanic,Female,5 to 9 years,2000,Low-risk,0.0
+327,Hispanic,Female,5 to 9 years,2000,Medium-risk,0.0
+328,Hispanic,Female,5 to 9 years,2000,High-risk,0.0
+329,Hispanic,Female,5 to 9 years,2000,Very High-risk,0.0
+330,Other,Female,5 to 9 years,2000,Abstinence,0.0
+331,Other,Female,5 to 9 years,2000,Low-risk,0.0
+332,Other,Female,5 to 9 years,2000,Medium-risk,0.0
+333,Other,Female,5 to 9 years,2000,High-risk,0.0
+334,Other,Female,5 to 9 years,2000,Very High-risk,0.0
+335,White,Female,5 to 9 years,2000,Abstinence,0.0
+336,White,Female,5 to 9 years,2000,Low-risk,0.0
+337,White,Female,5 to 9 years,2000,Medium-risk,0.0
+338,White,Female,5 to 9 years,2000,High-risk,0.0
+339,White,Female,5 to 9 years,2000,Very High-risk,0.0
+340,Black,Male,5 to 9 years,2000,Abstinence,0.0
+341,Black,Male,5 to 9 years,2000,Low-risk,0.0
+342,Black,Male,5 to 9 years,2000,Medium-risk,0.0
+343,Black,Male,5 to 9 years,2000,High-risk,0.0
+344,Black,Male,5 to 9 years,2000,Very High-risk,0.0
+345,Hispanic,Male,5 to 9 years,2000,Abstinence,0.0
+346,Hispanic,Male,5 to 9 years,2000,Low-risk,0.0
+347,Hispanic,Male,5 to 9 years,2000,Medium-risk,0.0
+348,Hispanic,Male,5 to 9 years,2000,High-risk,0.0
+349,Hispanic,Male,5 to 9 years,2000,Very High-risk,0.0
+350,Other,Male,5 to 9 years,2000,Abstinence,0.0
+351,Other,Male,5 to 9 years,2000,Low-risk,0.0
+352,Other,Male,5 to 9 years,2000,Medium-risk,0.0
+353,Other,Male,5 to 9 years,2000,High-risk,0.0
+354,Other,Male,5 to 9 years,2000,Very High-risk,0.0
+355,White,Male,5 to 9 years,2000,Abstinence,0.0
+356,White,Male,5 to 9 years,2000,Low-risk,0.0
+357,White,Male,5 to 9 years,2000,Medium-risk,0.0
+358,White,Male,5 to 9 years,2000,High-risk,0.0
+359,White,Male,5 to 9 years,2000,Very High-risk,0.0
+360,Black,Female,50 to 54 years,2000,Abstinence,0.8
+361,Black,Female,50 to 54 years,2000,Low-risk,0.13
+362,Black,Female,50 to 54 years,2000,Medium-risk,0.05
+363,Black,Female,50 to 54 years,2000,High-risk,0.015
+364,Black,Female,50 to 54 years,2000,Very High-risk,0.005
+365,Hispanic,Female,50 to 54 years,2000,Abstinence,0.78
+366,Hispanic,Female,50 to 54 years,2000,Low-risk,0.14
+367,Hispanic,Female,50 to 54 years,2000,Medium-risk,0.05
+368,Hispanic,Female,50 to 54 years,2000,High-risk,0.02
+369,Hispanic,Female,50 to 54 years,2000,Very High-risk,0.01
+370,Other,Female,50 to 54 years,2000,Abstinence,0.77
+371,Other,Female,50 to 54 years,2000,Low-risk,0.14
+372,Other,Female,50 to 54 years,2000,Medium-risk,0.06
+373,Other,Female,50 to 54 years,2000,High-risk,0.02
+374,Other,Female,50 to 54 years,2000,Very High-risk,0.01
+375,White,Female,50 to 54 years,2000,Abstinence,0.76
+376,White,Female,50 to 54 years,2000,Low-risk,0.15
+377,White,Female,50 to 54 years,2000,Medium-risk,0.06
+378,White,Female,50 to 54 years,2000,High-risk,0.02
+379,White,Female,50 to 54 years,2000,Very High-risk,0.01
+380,Black,Male,50 to 54 years,2000,Abstinence,0.78
+381,Black,Male,50 to 54 years,2000,Low-risk,0.14
+382,Black,Male,50 to 54 years,2000,Medium-risk,0.06
+383,Black,Male,50 to 54 years,2000,High-risk,0.015
+384,Black,Male,50 to 54 years,2000,Very High-risk,0.005
+385,Hispanic,Male,50 to 54 years,2000,Abstinence,0.76
+386,Hispanic,Male,50 to 54 years,2000,Low-risk,0.15
+387,Hispanic,Male,50 to 54 years,2000,Medium-risk,0.06
+388,Hispanic,Male,50 to 54 years,2000,High-risk,0.025
+389,Hispanic,Male,50 to 54 years,2000,Very High-risk,0.01
+390,Other,Male,50 to 54 years,2000,Abstinence,0.75
+391,Other,Male,50 to 54 years,2000,Low-risk,0.15
+392,Other,Male,50 to 54 years,2000,Medium-risk,0.06
+393,Other,Male,50 to 54 years,2000,High-risk,0.03
+394,Other,Male,50 to 54 years,2000,Very High-risk,0.01
+395,White,Male,50 to 54 years,2000,Abstinence,0.74
+396,White,Male,50 to 54 years,2000,Low-risk,0.16
+397,White,Male,50 to 54 years,2000,Medium-risk,0.06
+398,White,Male,50 to 54 years,2000,High-risk,0.03
+399,White,Male,50 to 54 years,2000,Very High-risk,0.01
+400,Black,Female,55 to 59 years,2000,Abstinence,0.82
+401,Black,Female,55 to 59 years,2000,Low-risk,0.12
+402,Black,Female,55 to 59 years,2000,Medium-risk,0.04
+403,Black,Female,55 to 59 years,2000,High-risk,0.015
+404,Black,Female,55 to 59 years,2000,Very High-risk,0.005
+405,Hispanic,Female,55 to 59 years,2000,Abstinence,0.8
+406,Hispanic,Female,55 to 59 years,2000,Low-risk,0.13
+407,Hispanic,Female,55 to 59 years,2000,Medium-risk,0.04
+408,Hispanic,Female,55 to 59 years,2000,High-risk,0.02
+409,Hispanic,Female,55 to 59 years,2000,Very High-risk,0.01
+410,Other,Female,55 to 59 years,2000,Abstinence,0.79
+411,Other,Female,55 to 59 years,2000,Low-risk,0.13
+412,Other,Female,55 to 59 years,2000,Medium-risk,0.05
+413,Other,Female,55 to 59 years,2000,High-risk,0.02
+414,Other,Female,55 to 59 years,2000,Very High-risk,0.01
+415,White,Female,55 to 59 years,2000,Abstinence,0.78
+416,White,Female,55 to 59 years,2000,Low-risk,0.14
+417,White,Female,55 to 59 years,2000,Medium-risk,0.05
+418,White,Female,55 to 59 years,2000,High-risk,0.02
+419,White,Female,55 to 59 years,2000,Very High-risk,0.01
+420,Black,Male,55 to 59 years,2000,Abstinence,0.8
+421,Black,Male,55 to 59 years,2000,Low-risk,0.13
+422,Black,Male,55 to 59 years,2000,Medium-risk,0.05
+423,Black,Male,55 to 59 years,2000,High-risk,0.015
+424,Black,Male,55 to 59 years,2000,Very High-risk,0.005
+425,Hispanic,Male,55 to 59 years,2000,Abstinence,0.78
+426,Hispanic,Male,55 to 59 years,2000,Low-risk,0.14
+427,Hispanic,Male,55 to 59 years,2000,Medium-risk,0.05
+428,Hispanic,Male,55 to 59 years,2000,High-risk,0.025
+429,Hispanic,Male,55 to 59 years,2000,Very High-risk,0.01
+430,Other,Male,55 to 59 years,2000,Abstinence,0.77
+431,Other,Male,55 to 59 years,2000,Low-risk,0.14
+432,Other,Male,55 to 59 years,2000,Medium-risk,0.05
+433,Other,Male,55 to 59 years,2000,High-risk,0.03
+434,Other,Male,55 to 59 years,2000,Very High-risk,0.01
+435,White,Male,55 to 59 years,2000,Abstinence,0.76
+436,White,Male,55 to 59 years,2000,Low-risk,0.15
+437,White,Male,55 to 59 years,2000,Medium-risk,0.05
+438,White,Male,55 to 59 years,2000,High-risk,0.03
+439,White,Male,55 to 59 years,2000,Very High-risk,0.01
+440,Black,Female,60 to 64 years,2000,Abstinence,0.88
+441,Black,Female,60 to 64 years,2000,Low-risk,0.08
+442,Black,Female,60 to 64 years,2000,Medium-risk,0.02
+443,Black,Female,60 to 64 years,2000,High-risk,0.015
+444,Black,Female,60 to 64 years,2000,Very High-risk,0.005
+445,Hispanic,Female,60 to 64 years,2000,Abstinence,0.86
+446,Hispanic,Female,60 to 64 years,2000,Low-risk,0.09
+447,Hispanic,Female,60 to 64 years,2000,Medium-risk,0.025
+448,Hispanic,Female,60 to 64 years,2000,High-risk,0.015
+449,Hispanic,Female,60 to 64 years,2000,Very High-risk,0.005
+450,Other,Female,60 to 64 years,2000,Abstinence,0.85
+451,Other,Female,60 to 64 years,2000,Low-risk,0.1
+452,Other,Female,60 to 64 years,2000,Medium-risk,0.03
+453,Other,Female,60 to 64 years,2000,High-risk,0.015
+454,Other,Female,60 to 64 years,2000,Very High-risk,0.005
+455,White,Female,60 to 64 years,2000,Abstinence,0.84
+456,White,Female,60 to 64 years,2000,Low-risk,0.1
+457,White,Female,60 to 64 years,2000,Medium-risk,0.03
+458,White,Female,60 to 64 years,2000,High-risk,0.02
+459,White,Female,60 to 64 years,2000,Very High-risk,0.01
+460,Black,Male,60 to 64 years,2000,Abstinence,0.86
+461,Black,Male,60 to 64 years,2000,Low-risk,0.09
+462,Black,Male,60 to 64 years,2000,Medium-risk,0.03
+463,Black,Male,60 to 64 years,2000,High-risk,0.015
+464,Black,Male,60 to 64 years,2000,Very High-risk,0.005
+465,Hispanic,Male,60 to 64 years,2000,Abstinence,0.84
+466,Hispanic,Male,60 to 64 years,2000,Low-risk,0.1
+467,Hispanic,Male,60 to 64 years,2000,Medium-risk,0.03
+468,Hispanic,Male,60 to 64 years,2000,High-risk,0.02
+469,Hispanic,Male,60 to 64 years,2000,Very High-risk,0.01
+470,Other,Male,60 to 64 years,2000,Abstinence,0.83
+471,Other,Male,60 to 64 years,2000,Low-risk,0.11
+472,Other,Male,60 to 64 years,2000,Medium-risk,0.03
+473,Other,Male,60 to 64 years,2000,High-risk,0.02
+474,Other,Male,60 to 64 years,2000,Very High-risk,0.01
+475,White,Male,60 to 64 years,2000,Abstinence,0.82
+476,White,Male,60 to 64 years,2000,Low-risk,0.12
+477,White,Male,60 to 64 years,2000,Medium-risk,0.03
+478,White,Male,60 to 64 years,2000,High-risk,0.02
+479,White,Male,60 to 64 years,2000,Very High-risk,0.01
+480,Black,Female,65 to 69 years,2000,Abstinence,0.88
+481,Black,Female,65 to 69 years,2000,Low-risk,0.08
+482,Black,Female,65 to 69 years,2000,Medium-risk,0.02
+483,Black,Female,65 to 69 years,2000,High-risk,0.015
+484,Black,Female,65 to 69 years,2000,Very High-risk,0.005
+485,Hispanic,Female,65 to 69 years,2000,Abstinence,0.86
+486,Hispanic,Female,65 to 69 years,2000,Low-risk,0.09
+487,Hispanic,Female,65 to 69 years,2000,Medium-risk,0.025
+488,Hispanic,Female,65 to 69 years,2000,High-risk,0.015
+489,Hispanic,Female,65 to 69 years,2000,Very High-risk,0.005
+490,Other,Female,65 to 69 years,2000,Abstinence,0.85
+491,Other,Female,65 to 69 years,2000,Low-risk,0.1
+492,Other,Female,65 to 69 years,2000,Medium-risk,0.03
+493,Other,Female,65 to 69 years,2000,High-risk,0.015
+494,Other,Female,65 to 69 years,2000,Very High-risk,0.005
+495,White,Female,65 to 69 years,2000,Abstinence,0.84
+496,White,Female,65 to 69 years,2000,Low-risk,0.1
+497,White,Female,65 to 69 years,2000,Medium-risk,0.03
+498,White,Female,65 to 69 years,2000,High-risk,0.02
+499,White,Female,65 to 69 years,2000,Very High-risk,0.01
+500,Black,Male,65 to 69 years,2000,Abstinence,0.86
+501,Black,Male,65 to 69 years,2000,Low-risk,0.09
+502,Black,Male,65 to 69 years,2000,Medium-risk,0.03
+503,Black,Male,65 to 69 years,2000,High-risk,0.015
+504,Black,Male,65 to 69 years,2000,Very High-risk,0.005
+505,Hispanic,Male,65 to 69 years,2000,Abstinence,0.84
+506,Hispanic,Male,65 to 69 years,2000,Low-risk,0.1
+507,Hispanic,Male,65 to 69 years,2000,Medium-risk,0.03
+508,Hispanic,Male,65 to 69 years,2000,High-risk,0.02
+509,Hispanic,Male,65 to 69 years,2000,Very High-risk,0.01
+510,Other,Male,65 to 69 years,2000,Abstinence,0.83
+511,Other,Male,65 to 69 years,2000,Low-risk,0.11
+512,Other,Male,65 to 69 years,2000,Medium-risk,0.03
+513,Other,Male,65 to 69 years,2000,High-risk,0.02
+514,Other,Male,65 to 69 years,2000,Very High-risk,0.01
+515,White,Male,65 to 69 years,2000,Abstinence,0.82
+516,White,Male,65 to 69 years,2000,Low-risk,0.12
+517,White,Male,65 to 69 years,2000,Medium-risk,0.03
+518,White,Male,65 to 69 years,2000,High-risk,0.02
+519,White,Male,65 to 69 years,2000,Very High-risk,0.01
+520,Black,Female,70 to 74 years,2000,Abstinence,0.88
+521,Black,Female,70 to 74 years,2000,Low-risk,0.08
+522,Black,Female,70 to 74 years,2000,Medium-risk,0.02
+523,Black,Female,70 to 74 years,2000,High-risk,0.015
+524,Black,Female,70 to 74 years,2000,Very High-risk,0.005
+525,Hispanic,Female,70 to 74 years,2000,Abstinence,0.86
+526,Hispanic,Female,70 to 74 years,2000,Low-risk,0.09
+527,Hispanic,Female,70 to 74 years,2000,Medium-risk,0.025
+528,Hispanic,Female,70 to 74 years,2000,High-risk,0.015
+529,Hispanic,Female,70 to 74 years,2000,Very High-risk,0.005
+530,Other,Female,70 to 74 years,2000,Abstinence,0.85
+531,Other,Female,70 to 74 years,2000,Low-risk,0.1
+532,Other,Female,70 to 74 years,2000,Medium-risk,0.03
+533,Other,Female,70 to 74 years,2000,High-risk,0.015
+534,Other,Female,70 to 74 years,2000,Very High-risk,0.005
+535,White,Female,70 to 74 years,2000,Abstinence,0.84
+536,White,Female,70 to 74 years,2000,Low-risk,0.1
+537,White,Female,70 to 74 years,2000,Medium-risk,0.03
+538,White,Female,70 to 74 years,2000,High-risk,0.02
+539,White,Female,70 to 74 years,2000,Very High-risk,0.01
+540,Black,Male,70 to 74 years,2000,Abstinence,0.86
+541,Black,Male,70 to 74 years,2000,Low-risk,0.09
+542,Black,Male,70 to 74 years,2000,Medium-risk,0.03
+543,Black,Male,70 to 74 years,2000,High-risk,0.015
+544,Black,Male,70 to 74 years,2000,Very High-risk,0.005
+545,Hispanic,Male,70 to 74 years,2000,Abstinence,0.84
+546,Hispanic,Male,70 to 74 years,2000,Low-risk,0.1
+547,Hispanic,Male,70 to 74 years,2000,Medium-risk,0.03
+548,Hispanic,Male,70 to 74 years,2000,High-risk,0.02
+549,Hispanic,Male,70 to 74 years,2000,Very High-risk,0.01
+550,Other,Male,70 to 74 years,2000,Abstinence,0.83
+551,Other,Male,70 to 74 years,2000,Low-risk,0.11
+552,Other,Male,70 to 74 years,2000,Medium-risk,0.03
+553,Other,Male,70 to 74 years,2000,High-risk,0.02
+554,Other,Male,70 to 74 years,2000,Very High-risk,0.01
+555,White,Male,70 to 74 years,2000,Abstinence,0.82
+556,White,Male,70 to 74 years,2000,Low-risk,0.12
+557,White,Male,70 to 74 years,2000,Medium-risk,0.03
+558,White,Male,70 to 74 years,2000,High-risk,0.02
+559,White,Male,70 to 74 years,2000,Very High-risk,0.01
+560,Black,Female,75 to 79 years,2000,Abstinence,0.88
+561,Black,Female,75 to 79 years,2000,Low-risk,0.08
+562,Black,Female,75 to 79 years,2000,Medium-risk,0.02
+563,Black,Female,75 to 79 years,2000,High-risk,0.015
+564,Black,Female,75 to 79 years,2000,Very High-risk,0.005
+565,Hispanic,Female,75 to 79 years,2000,Abstinence,0.86
+566,Hispanic,Female,75 to 79 years,2000,Low-risk,0.09
+567,Hispanic,Female,75 to 79 years,2000,Medium-risk,0.025
+568,Hispanic,Female,75 to 79 years,2000,High-risk,0.015
+569,Hispanic,Female,75 to 79 years,2000,Very High-risk,0.005
+570,Other,Female,75 to 79 years,2000,Abstinence,0.85
+571,Other,Female,75 to 79 years,2000,Low-risk,0.1
+572,Other,Female,75 to 79 years,2000,Medium-risk,0.03
+573,Other,Female,75 to 79 years,2000,High-risk,0.015
+574,Other,Female,75 to 79 years,2000,Very High-risk,0.005
+575,White,Female,75 to 79 years,2000,Abstinence,0.84
+576,White,Female,75 to 79 years,2000,Low-risk,0.1
+577,White,Female,75 to 79 years,2000,Medium-risk,0.03
+578,White,Female,75 to 79 years,2000,High-risk,0.02
+579,White,Female,75 to 79 years,2000,Very High-risk,0.01
+580,Black,Male,75 to 79 years,2000,Abstinence,0.86
+581,Black,Male,75 to 79 years,2000,Low-risk,0.09
+582,Black,Male,75 to 79 years,2000,Medium-risk,0.03
+583,Black,Male,75 to 79 years,2000,High-risk,0.015
+584,Black,Male,75 to 79 years,2000,Very High-risk,0.005
+585,Hispanic,Male,75 to 79 years,2000,Abstinence,0.84
+586,Hispanic,Male,75 to 79 years,2000,Low-risk,0.1
+587,Hispanic,Male,75 to 79 years,2000,Medium-risk,0.03
+588,Hispanic,Male,75 to 79 years,2000,High-risk,0.02
+589,Hispanic,Male,75 to 79 years,2000,Very High-risk,0.01
+590,Other,Male,75 to 79 years,2000,Abstinence,0.83
+591,Other,Male,75 to 79 years,2000,Low-risk,0.11
+592,Other,Male,75 to 79 years,2000,Medium-risk,0.03
+593,Other,Male,75 to 79 years,2000,High-risk,0.02
+594,Other,Male,75 to 79 years,2000,Very High-risk,0.01
+595,White,Male,75 to 79 years,2000,Abstinence,0.82
+596,White,Male,75 to 79 years,2000,Low-risk,0.12
+597,White,Male,75 to 79 years,2000,Medium-risk,0.03
+598,White,Male,75 to 79 years,2000,High-risk,0.02
+599,White,Male,75 to 79 years,2000,Very High-risk,0.01
+600,Black,Female,80 to 84 years,2000,Abstinence,0.88
+601,Black,Female,80 to 84 years,2000,Low-risk,0.08
+602,Black,Female,80 to 84 years,2000,Medium-risk,0.02
+603,Black,Female,80 to 84 years,2000,High-risk,0.015
+604,Black,Female,80 to 84 years,2000,Very High-risk,0.005
+605,Hispanic,Female,80 to 84 years,2000,Abstinence,0.86
+606,Hispanic,Female,80 to 84 years,2000,Low-risk,0.09
+607,Hispanic,Female,80 to 84 years,2000,Medium-risk,0.025
+608,Hispanic,Female,80 to 84 years,2000,High-risk,0.015
+609,Hispanic,Female,80 to 84 years,2000,Very High-risk,0.005
+610,Other,Female,80 to 84 years,2000,Abstinence,0.85
+611,Other,Female,80 to 84 years,2000,Low-risk,0.1
+612,Other,Female,80 to 84 years,2000,Medium-risk,0.03
+613,Other,Female,80 to 84 years,2000,High-risk,0.015
+614,Other,Female,80 to 84 years,2000,Very High-risk,0.005
+615,White,Female,80 to 84 years,2000,Abstinence,0.84
+616,White,Female,80 to 84 years,2000,Low-risk,0.1
+617,White,Female,80 to 84 years,2000,Medium-risk,0.03
+618,White,Female,80 to 84 years,2000,High-risk,0.02
+619,White,Female,80 to 84 years,2000,Very High-risk,0.01
+620,Black,Male,80 to 84 years,2000,Abstinence,0.86
+621,Black,Male,80 to 84 years,2000,Low-risk,0.09
+622,Black,Male,80 to 84 years,2000,Medium-risk,0.03
+623,Black,Male,80 to 84 years,2000,High-risk,0.015
+624,Black,Male,80 to 84 years,2000,Very High-risk,0.005
+625,Hispanic,Male,80 to 84 years,2000,Abstinence,0.84
+626,Hispanic,Male,80 to 84 years,2000,Low-risk,0.1
+627,Hispanic,Male,80 to 84 years,2000,Medium-risk,0.03
+628,Hispanic,Male,80 to 84 years,2000,High-risk,0.02
+629,Hispanic,Male,80 to 84 years,2000,Very High-risk,0.01
+630,Other,Male,80 to 84 years,2000,Abstinence,0.83
+631,Other,Male,80 to 84 years,2000,Low-risk,0.11
+632,Other,Male,80 to 84 years,2000,Medium-risk,0.03
+633,Other,Male,80 to 84 years,2000,High-risk,0.02
+634,Other,Male,80 to 84 years,2000,Very High-risk,0.01
+635,White,Male,80 to 84 years,2000,Abstinence,0.82
+636,White,Male,80 to 84 years,2000,Low-risk,0.12
+637,White,Male,80 to 84 years,2000,Medium-risk,0.03
+638,White,Male,80 to 84 years,2000,High-risk,0.02
+639,White,Male,80 to 84 years,2000,Very High-risk,0.01
+640,Black,Female,85 years and over,2000,Abstinence,0.88
+641,Black,Female,85 years and over,2000,Low-risk,0.08
+642,Black,Female,85 years and over,2000,Medium-risk,0.02
+643,Black,Female,85 years and over,2000,High-risk,0.015
+644,Black,Female,85 years and over,2000,Very High-risk,0.005
+645,Hispanic,Female,85 years and over,2000,Abstinence,0.86
+646,Hispanic,Female,85 years and over,2000,Low-risk,0.09
+647,Hispanic,Female,85 years and over,2000,Medium-risk,0.025
+648,Hispanic,Female,85 years and over,2000,High-risk,0.015
+649,Hispanic,Female,85 years and over,2000,Very High-risk,0.005
+650,Other,Female,85 years and over,2000,Abstinence,0.85
+651,Other,Female,85 years and over,2000,Low-risk,0.1
+652,Other,Female,85 years and over,2000,Medium-risk,0.03
+653,Other,Female,85 years and over,2000,High-risk,0.015
+654,Other,Female,85 years and over,2000,Very High-risk,0.005
+655,White,Female,85 years and over,2000,Abstinence,0.84
+656,White,Female,85 years and over,2000,Low-risk,0.1
+657,White,Female,85 years and over,2000,Medium-risk,0.03
+658,White,Female,85 years and over,2000,High-risk,0.02
+659,White,Female,85 years and over,2000,Very High-risk,0.01
+660,Black,Male,85 years and over,2000,Abstinence,0.86
+661,Black,Male,85 years and over,2000,Low-risk,0.09
+662,Black,Male,85 years and over,2000,Medium-risk,0.03
+663,Black,Male,85 years and over,2000,High-risk,0.015
+664,Black,Male,85 years and over,2000,Very High-risk,0.005
+665,Hispanic,Male,85 years and over,2000,Abstinence,0.84
+666,Hispanic,Male,85 years and over,2000,Low-risk,0.1
+667,Hispanic,Male,85 years and over,2000,Medium-risk,0.03
+668,Hispanic,Male,85 years and over,2000,High-risk,0.02
+669,Hispanic,Male,85 years and over,2000,Very High-risk,0.01
+670,Other,Male,85 years and over,2000,Abstinence,0.83
+671,Other,Male,85 years and over,2000,Low-risk,0.11
+672,Other,Male,85 years and over,2000,Medium-risk,0.03
+673,Other,Male,85 years and over,2000,High-risk,0.02
+674,Other,Male,85 years and over,2000,Very High-risk,0.01
+675,White,Male,85 years and over,2000,Abstinence,0.82
+676,White,Male,85 years and over,2000,Low-risk,0.12
+677,White,Male,85 years and over,2000,Medium-risk,0.03
+678,White,Male,85 years and over,2000,High-risk,0.02
+679,White,Male,85 years and over,2000,Very High-risk,0.01
+680,Black,Female,Under 5 years,2000,Abstinence,0.0
+681,Black,Female,Under 5 years,2000,Low-risk,0.0
+682,Black,Female,Under 5 years,2000,Medium-risk,0.0
+683,Black,Female,Under 5 years,2000,High-risk,0.0
+684,Black,Female,Under 5 years,2000,Very High-risk,0.0
+685,Hispanic,Female,Under 5 years,2000,Abstinence,0.0
+686,Hispanic,Female,Under 5 years,2000,Low-risk,0.0
+687,Hispanic,Female,Under 5 years,2000,Medium-risk,0.0
+688,Hispanic,Female,Under 5 years,2000,High-risk,0.0
+689,Hispanic,Female,Under 5 years,2000,Very High-risk,0.0
+690,Other,Female,Under 5 years,2000,Abstinence,0.0
+691,Other,Female,Under 5 years,2000,Low-risk,0.0
+692,Other,Female,Under 5 years,2000,Medium-risk,0.0
+693,Other,Female,Under 5 years,2000,High-risk,0.0
+694,Other,Female,Under 5 years,2000,Very High-risk,0.0
+695,White,Female,Under 5 years,2000,Abstinence,0.0
+696,White,Female,Under 5 years,2000,Low-risk,0.0
+697,White,Female,Under 5 years,2000,Medium-risk,0.0
+698,White,Female,Under 5 years,2000,High-risk,0.0
+699,White,Female,Under 5 years,2000,Very High-risk,0.0
+700,Black,Male,Under 5 years,2000,Abstinence,0.0
+701,Black,Male,Under 5 years,2000,Low-risk,0.0
+702,Black,Male,Under 5 years,2000,Medium-risk,0.0
+703,Black,Male,Under 5 years,2000,High-risk,0.0
+704,Black,Male,Under 5 years,2000,Very High-risk,0.0
+705,Hispanic,Male,Under 5 years,2000,Abstinence,0.0
+706,Hispanic,Male,Under 5 years,2000,Low-risk,0.0
+707,Hispanic,Male,Under 5 years,2000,Medium-risk,0.0
+708,Hispanic,Male,Under 5 years,2000,High-risk,0.0
+709,Hispanic,Male,Under 5 years,2000,Very High-risk,0.0
+710,Other,Male,Under 5 years,2000,Abstinence,0.0
+711,Other,Male,Under 5 years,2000,Low-risk,0.0
+712,Other,Male,Under 5 years,2000,Medium-risk,0.0
+713,Other,Male,Under 5 years,2000,High-risk,0.0
+714,Other,Male,Under 5 years,2000,Very High-risk,0.0
+715,White,Male,Under 5 years,2000,Abstinence,0.0
+716,White,Male,Under 5 years,2000,Low-risk,0.0
+717,White,Male,Under 5 years,2000,Medium-risk,0.0
+718,White,Male,Under 5 years,2000,High-risk,0.0
+719,White,Male,Under 5 years,2000,Very High-risk,0.0
